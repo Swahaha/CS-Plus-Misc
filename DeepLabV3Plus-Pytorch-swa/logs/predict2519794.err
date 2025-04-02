@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/home/users/sm961/CS+/DeepLabV3Plus-Pytorch/mapping.py", line 2, in <module>
+    import kornia as K
+ModuleNotFoundError: No module named 'kornia'
+srun: error: linux48: task 0: Exited with exit code 1

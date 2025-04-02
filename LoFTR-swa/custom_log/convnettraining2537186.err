@@ -1,0 +1,82 @@
+/var/lib/slurm/slurmd/job2537186/slurm_script: line 14: cd: /home/users/sm961/CS+/Loftr: No such file or directory
+[rank: 0] Seed set to 42
+2024-07-24 12:29:04.207 | INFO     | __main__:main:319 - LoFTR LightningModule initialized!
+2024-07-24 12:29:04.208 | INFO     | __main__:main:322 - LoFTR DataModule initialized!
+GPU available: True (cuda), used: False
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+/home/users/sm961/CS+/LoFTR/venv/lib/python3.10/site-packages/pytorch_lightning/trainer/setup.py:177: GPU available but not used. You can set it by doing `Trainer(accelerator='gpu')`.
+`Trainer(limit_val_batches=1.0)` was configured so 100% of the batches will be used..
+2024-07-24 12:29:04.280 | INFO     | __main__:main:351 - Trainer initialized!
+2024-07-24 12:29:04.280 | INFO     | __main__:main:352 - Start training!
+[rank: 0] Seed set to 42
+Initializing distributed: GLOBAL_RANK: 0, MEMBER: 1/1
+----------------------------------------------------------------------------------------------------
+distributed_backend=gloo
+All distributed processes registered. Starting with 1 processes
+----------------------------------------------------------------------------------------------------
+
+
+  | Name    | Type      | Params | Mode 
+----------------------------------------------
+0 | matcher | LoFTR     | 11.6 M | train
+1 | loss    | LoFTRLoss | 0      | train
+----------------------------------------------
+11.6 M    Trainable params
+0         Non-trainable params
+11.6 M    Total params
+46.246    Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+2024-07-24 12:29:31.470 | DEBUG    | src.utils.metrics:compute_correspondence_distances:28 - correspondence_distances type: <class 'list'>, Length: 4
+2024-07-24 12:29:31.471 | DEBUG    | src.utils.metrics:compute_correspondence_distances:30 - Type of correspondence_distances[0]: <class 'list'>, Length: 6200
+2024-07-24 12:29:31.471 | DEBUG    | src.utils.metrics:compute_correspondence_distances:30 - Type of correspondence_distances[1]: <class 'list'>, Length: 37555
+2024-07-24 12:29:31.471 | DEBUG    | src.utils.metrics:compute_correspondence_distances:30 - Type of correspondence_distances[2]: <class 'list'>, Length: 40934
+2024-07-24 12:29:31.471 | DEBUG    | src.utils.metrics:compute_correspondence_distances:30 - Type of correspondence_distances[3]: <class 'list'>, Length: 20178
+2024-07-24 12:29:31.472 | DEBUG    | src.lightning.lightning_loftr:_compute_metrics:114 - Sample distances: [34.48188018798828, 36.400550842285156, 38.327537536621094, 39.293766021728516, 41.231056213378906]
+/home/users/sm961/CS+/LoFTR/venv/lib/python3.10/site-packages/pytorch_lightning/utilities/data.py:78: Trying to infer the `batch_size` from an ambiguous collection. The batch size we found is 4. To avoid any miscalculations, use `self.log(..., batch_size=batch_size)`.
+2024-07-24 12:29:31.539 | DEBUG    | src.lightning.lightning_loftr:validation_step:150 - Distances in validation_step: [34.48188018798828, 36.400550842285156, 38.327537536621094, 39.293766021728516, 41.231056213378906]
+/home/users/sm961/CS+/LoFTR/venv/lib/python3.10/site-packages/torch/functional.py:513: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at ../aten/src/ATen/native/TensorShape.cpp:3609.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+/home/users/sm961/CS+/LoFTR/src/loftr/utils/supervision.py:52: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  j_idx = torch.tensor((y1 // scale) * w1 + (x1 // scale), device=device)
+2024-07-24 12:30:02.528 | INFO     | src.lightning.lightning_loftr:on_validation_epoch_end:171 - _metrics: [{'mean_distance': 67.11766719818115, 'max_distance': 236.4846649169922, 'min_distance': 0.0}]
+2024-07-24 12:30:02.529 | DEBUG    | src.lightning.lightning_loftr:on_validation_epoch_end:195 - Type after conversion: <class 'list'>
+2024-07-24 12:30:02.529 | DEBUG    | src.lightning.lightning_loftr:on_validation_epoch_end:195 - Type after conversion: <class 'list'>
+2024-07-24 12:30:02.529 | DEBUG    | src.lightning.lightning_loftr:on_validation_epoch_end:195 - Type after conversion: <class 'list'>
+2024-07-24 12:30:02.529 | DEBUG    | src.lightning.lightning_loftr:on_validation_epoch_end:195 - Type after conversion: <class 'list'>
+2024-07-24 12:30:02.550 | INFO     | src.utils.metrics:aggregate_metrics:60 - Aggregating metrics over 1 unique items...
+2024-07-24 12:30:02.550 | WARNING  | src.utils.metrics:aggregate_metrics:69 - Unexpected type for correspondence_distances at index 0: <class 'float'>
+2024-07-24 12:30:02.550 | WARNING  | src.utils.metrics:aggregate_metrics:72 - No valid correspondence distances found.
+[rank0]: Traceback (most recent call last):
+[rank0]:   File "/home/users/sm961/CS+/LoFTR/train.py", line 356, in <module>
+[rank0]:     main()
+[rank0]:   File "/home/users/sm961/CS+/LoFTR/train.py", line 353, in main
+[rank0]:     trainer.fit(model, datamodule=data_module)
+[rank0]:   File "/home/users/sm961/CS+/LoFTR/venv/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py", line 543, in fit
+[rank0]:     call._call_and_handle_interrupt(
+[rank0]:   File "/home/users/sm961/CS+/LoFTR/venv/lib/python3.10/site-packages/pytorch_lightning/trainer/call.py", line 43, in _call_and_handle_interrupt
+[rank0]:     return trainer.strategy.launcher.launch(trainer_fn, *args, trainer=trainer, **kwargs)
+[rank0]:   File "/home/users/sm961/CS+/LoFTR/venv/lib/python3.10/site-packages/pytorch_lightning/strategies/launchers/subprocess_script.py", line 105, in launch
+[rank0]:     return function(*args, **kwargs)
+[rank0]:   File "/home/users/sm961/CS+/LoFTR/venv/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py", line 579, in _fit_impl
+[rank0]:     self._run(model, ckpt_path=ckpt_path)
+[rank0]:   File "/home/users/sm961/CS+/LoFTR/venv/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py", line 986, in _run
+[rank0]:     results = self._run_stage()
+[rank0]:   File "/home/users/sm961/CS+/LoFTR/venv/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py", line 1030, in _run_stage
+[rank0]:     self.fit_loop.run()
+[rank0]:   File "/home/users/sm961/CS+/LoFTR/venv/lib/python3.10/site-packages/pytorch_lightning/loops/fit_loop.py", line 205, in run
+[rank0]:     self.advance()
+[rank0]:   File "/home/users/sm961/CS+/LoFTR/venv/lib/python3.10/site-packages/pytorch_lightning/loops/fit_loop.py", line 363, in advance
+[rank0]:     self.epoch_loop.run(self._data_fetcher)
+[rank0]:   File "/home/users/sm961/CS+/LoFTR/venv/lib/python3.10/site-packages/pytorch_lightning/loops/training_epoch_loop.py", line 140, in run
+[rank0]:     self.advance(data_fetcher)
+[rank0]:   File "/home/users/sm961/CS+/LoFTR/venv/lib/python3.10/site-packages/pytorch_lightning/loops/training_epoch_loop.py", line 250, in advance
+[rank0]:     batch_output = self.automatic_optimization.run(trainer.optimizers[0], batch_idx, kwargs)
+[rank0]:   File "/home/users/sm961/CS+/LoFTR/venv/lib/python3.10/site-packages/pytorch_lightning/loops/optimization/automatic.py", line 190, in run
+[rank0]:     self._optimizer_step(batch_idx, closure)
+[rank0]:   File "/home/users/sm961/CS+/LoFTR/venv/lib/python3.10/site-packages/pytorch_lightning/loops/optimization/automatic.py", line 268, in _optimizer_step
+[rank0]:     call._call_lightning_module_hook(
+[rank0]:   File "/home/users/sm961/CS+/LoFTR/venv/lib/python3.10/site-packages/pytorch_lightning/trainer/call.py", line 159, in _call_lightning_module_hook
+[rank0]:     output = fn(*args, **kwargs)
+[rank0]: TypeError: PL_LoFTR.optimizer_step() missing 1 required positional argument: 'optimizer_closure'
+srun: error: linux47: task 0: Exited with exit code 1

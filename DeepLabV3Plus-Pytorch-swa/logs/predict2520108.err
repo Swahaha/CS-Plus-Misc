@@ -1,0 +1,6 @@
+srun: error: Task launch for StepId=2520108.0 failed on node linux46: Communication connection failure
+srun: error: Application launch failed: Communication connection failure
+srun: Job step aborted
+srun: error: Task launch for StepId=2520108.1 failed on node linux46: Communication connection failure
+srun: error: Application launch failed: Communication connection failure
+srun: Job step aborted

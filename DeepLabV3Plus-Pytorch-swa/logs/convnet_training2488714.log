@@ -1,0 +1,114 @@
+Device: cuda
+Dataset: map, Train set: 7350, Val set: 7350
+[!] Training from scratch
+Epoch 1, Itrs 10/30000, Loss=0.613823
+Epoch 1, Itrs 20/30000, Loss=0.236563
+Epoch 1, Itrs 30/30000, Loss=0.193294
+Epoch 1, Itrs 40/30000, Loss=0.152583
+Epoch 1, Itrs 50/30000, Loss=0.153781
+Epoch 1, Itrs 60/30000, Loss=0.131135
+Epoch 1, Itrs 70/30000, Loss=0.125459
+Epoch 1, Itrs 80/30000, Loss=0.120324
+Epoch 1, Itrs 90/30000, Loss=0.117238
+Epoch 1, Itrs 100/30000, Loss=0.111405
+Epoch 1, Itrs 110/30000, Loss=0.116821
+Epoch 1, Itrs 120/30000, Loss=0.115018
+Epoch 1, Itrs 130/30000, Loss=0.108293
+Epoch 1, Itrs 140/30000, Loss=0.102731
+Epoch 1, Itrs 150/30000, Loss=0.117297
+Epoch 1, Itrs 160/30000, Loss=0.098881
+Epoch 1, Itrs 170/30000, Loss=0.105429
+Epoch 1, Itrs 180/30000, Loss=0.094776
+Epoch 1, Itrs 190/30000, Loss=0.099237
+Epoch 1, Itrs 200/30000, Loss=0.105321
+Epoch 1, Itrs 210/30000, Loss=0.098155
+Epoch 1, Itrs 220/30000, Loss=0.098033
+Epoch 1, Itrs 230/30000, Loss=0.094046
+Epoch 1, Itrs 240/30000, Loss=0.105650
+Epoch 1, Itrs 250/30000, Loss=0.091686
+Epoch 1, Itrs 260/30000, Loss=0.098562
+Epoch 1, Itrs 270/30000, Loss=0.086592
+Epoch 1, Itrs 280/30000, Loss=0.101624
+Epoch 1, Itrs 290/30000, Loss=0.102822
+Epoch 1, Itrs 300/30000, Loss=0.091933
+Epoch 1, Itrs 310/30000, Loss=0.100612
+Epoch 1, Itrs 320/30000, Loss=0.096302
+Epoch 1, Itrs 330/30000, Loss=0.101465
+Epoch 1, Itrs 340/30000, Loss=0.097604
+Epoch 1, Itrs 350/30000, Loss=0.084538
+Epoch 1, Itrs 360/30000, Loss=0.087615
+Epoch 1, Itrs 370/30000, Loss=0.093376
+Epoch 1, Itrs 380/30000, Loss=0.097031
+Epoch 1, Itrs 390/30000, Loss=0.090642
+Epoch 1, Itrs 400/30000, Loss=0.088067
+Epoch 1, Itrs 410/30000, Loss=0.099915
+Epoch 1, Itrs 420/30000, Loss=0.085367
+Epoch 1, Itrs 430/30000, Loss=0.087421
+Epoch 1, Itrs 440/30000, Loss=0.093469
+Epoch 1, Itrs 450/30000, Loss=0.092431
+Epoch 1, Itrs 460/30000, Loss=0.096105
+Epoch 1, Itrs 470/30000, Loss=0.084738
+Epoch 1, Itrs 480/30000, Loss=0.082663
+Epoch 1, Itrs 490/30000, Loss=0.087415
+Epoch 1, Itrs 500/30000, Loss=0.096503
+Model saved as checkpoints/latest_deeplabv3plus_resnet50_map_os16.pth
+validation...
+
+Overall Acc: 0.964832
+Mean Acc: 0.965078
+FreqW Acc: 0.953763
+Mean IoU: 0.655872
+
+Model saved as checkpoints/best_deeplabv3plus_resnet50_map_os16.pth
+Epoch 1, Itrs 510/30000, Loss=0.093169
+Epoch 1, Itrs 520/30000, Loss=0.079527
+Epoch 1, Itrs 530/30000, Loss=0.091896
+Epoch 1, Itrs 540/30000, Loss=0.080875
+Epoch 1, Itrs 550/30000, Loss=0.085534
+Epoch 1, Itrs 560/30000, Loss=0.082407
+Epoch 1, Itrs 570/30000, Loss=0.082623
+Epoch 1, Itrs 580/30000, Loss=0.079544
+Epoch 1, Itrs 590/30000, Loss=0.089701
+Epoch 1, Itrs 600/30000, Loss=0.093181
+Epoch 1, Itrs 610/30000, Loss=0.078064
+Epoch 1, Itrs 620/30000, Loss=0.081120
+Epoch 1, Itrs 630/30000, Loss=0.080300
+Epoch 1, Itrs 640/30000, Loss=0.079371
+Epoch 1, Itrs 650/30000, Loss=0.085314
+Epoch 1, Itrs 660/30000, Loss=0.085139
+Epoch 1, Itrs 670/30000, Loss=0.098747
+Epoch 1, Itrs 680/30000, Loss=0.088316
+Epoch 1, Itrs 690/30000, Loss=0.083473
+Epoch 1, Itrs 700/30000, Loss=0.074991
+Epoch 1, Itrs 710/30000, Loss=0.093672
+Epoch 1, Itrs 720/30000, Loss=0.083992
+Epoch 1, Itrs 730/30000, Loss=0.079254
+Epoch 1, Itrs 740/30000, Loss=0.082123
+Epoch 1, Itrs 750/30000, Loss=0.080071
+Epoch 1, Itrs 760/30000, Loss=0.078137
+Epoch 1, Itrs 770/30000, Loss=0.080020
+Epoch 1, Itrs 780/30000, Loss=0.091637
+Epoch 1, Itrs 790/30000, Loss=0.076242
+Epoch 1, Itrs 800/30000, Loss=0.081633
+Epoch 1, Itrs 810/30000, Loss=0.076861
+Epoch 1, Itrs 820/30000, Loss=0.079524
+Epoch 1, Itrs 830/30000, Loss=0.075947
+Epoch 1, Itrs 840/30000, Loss=0.082521
+Epoch 1, Itrs 850/30000, Loss=0.077523
+Epoch 1, Itrs 860/30000, Loss=0.070112
+Epoch 1, Itrs 870/30000, Loss=0.077633
+Epoch 1, Itrs 880/30000, Loss=0.077156
+Epoch 1, Itrs 890/30000, Loss=0.076800
+Epoch 1, Itrs 900/30000, Loss=0.084214
+Epoch 1, Itrs 910/30000, Loss=0.082234
+Epoch 2, Itrs 920/30000, Loss=0.082994
+Epoch 2, Itrs 930/30000, Loss=0.078319
+Epoch 2, Itrs 940/30000, Loss=0.071675
+Epoch 2, Itrs 950/30000, Loss=0.073048
+Epoch 2, Itrs 960/30000, Loss=0.071403
+Epoch 2, Itrs 970/30000, Loss=0.077364
+Epoch 2, Itrs 980/30000, Loss=0.071495
+Epoch 2, Itrs 990/30000, Loss=0.072858
+Epoch 2, Itrs 1000/30000, Loss=0.077725
+Model saved as checkpoints/latest_deeplabv3plus_resnet50_map_os16.pth
+validation...

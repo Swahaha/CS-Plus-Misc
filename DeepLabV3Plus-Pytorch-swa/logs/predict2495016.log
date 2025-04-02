@@ -1,0 +1,2 @@
+Device: cuda
+Loaded model from centropy_checkpoints/best_deeplabv3plus_resnet50_map_os16.pth

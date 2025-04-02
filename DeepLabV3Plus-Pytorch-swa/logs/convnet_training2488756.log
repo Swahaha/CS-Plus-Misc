@@ -1,0 +1,4 @@
+Device: cuda
+Calculated Mean: tensor([0.7715, 0.8988, 0.9856])
+Calculated Std: tensor([0.2449, 0.1588, 0.0835])
+Dataset: map, Train set: 7350, Val set: 1575

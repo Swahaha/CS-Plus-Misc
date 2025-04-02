@@ -7,31 +7,34 @@ __pycache__/
 tmp.*
 */.ipynb_checkpoints/*
 
-LoFTR/logs/
-LoFTR/weights/
-LoFTR/dump/
-LoFTR/demo/*.mp4
-LoFTR/demo/demo_images/
-LoFTR/src/loftr/utils/superglue.py
-LoFTR/demo/utils.py
+LoFTR-swa/logs/
+LoFTR-swa/weights/
+LoFTR-swa/dump/
+LoFTR-swa/demo/*.mp4
+LoFTR-swa/demo/demo_images/
+LoFTR-swa/src/loftr/utils/superglue.py
+LoFTR-swa/demo/utils.py
+LoFTR-swa/data
+LoFTR-swa/dataa
 
-LoFTR/notebooks/QccDayNight.ipynb
-LoFTR/notebooks/westlake.ipynb
-LoFTR/assets/westlake
-LoFTR/assets/qcc_pairs.txt
-LoFTR/configs/.petrel*
-LoFTR/tools/draw_QccDayNights.py
+LoFTR-swa/notebooks/QccDayNight.ipynb
+LoFTR-swa/notebooks/westlake.ipynb
+LoFTR-swa/assets/westlake
+LoFTR-swa/assets/qcc_pairs.txt
+LoFTR-swa/configs/.petrel*
+LoFTR-swa/tools/draw_QccDayNights.py
 
-LoFTR/scripts/slurm/
-LoFTR/scripts/sbatch_submit.sh
-LoFTR/src/utils/client.py
+LoFTR-swa/scripts/slurm/
+LoFTR-swa/scripts/sbatch_submit.sh
+LoFTR-swa/src/utils/client.py
 
 
-DeepLabV3Plus-Pytorch/VOCdevkit
-DeepLabV3Plus-Pytorch/checkpoints
+DeepLabV3Plus-Pytorch-swa/VOCdevkit
+DeepLabV3Plus-Pytorch-swa/checkpoints
 *.pyc
 .idea/
-DeepLabV3Plus-Pytorch/results
-DeepLabV3Plus-Pytorch/checkpoints_bak
-DeepLabV3Plus-Pytorch/cityscapes
-DeepLabV3Plus-Pytorch/test_results
+DeepLabV3Plus-Pytorch-swa/results
+DeepLabV3Plus-Pytorch-swa/FullData
+DeepLabV3Plus-Pytorch-swa/checkpoints_bak
+DeepLabV3Plus-Pytorch-swa/cityscapes
+DeepLabV3Plus-Pytorch-swa/test_results

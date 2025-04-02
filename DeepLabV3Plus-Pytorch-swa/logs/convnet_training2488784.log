@@ -1,0 +1,1835 @@
+Device: cuda
+Calculated Mean: tensor([0.7715, 0.8988, 0.9856])
+Calculated Std: tensor([0.2449, 0.1588, 0.0835])
+Dataset: map, Train set: 7350, Val set: 1575
+Mean: tensor([-1.5734e-06,  1.4748e-06,  2.0398e-06])
+Std: tensor([1.0000, 1.0000, 1.0000])
+[!] Training from scratch
+Epoch 1, Itrs 10/30000, Loss=0.636606
+Epoch 1, Itrs 20/30000, Loss=0.100776
+Epoch 1, Itrs 30/30000, Loss=0.077388
+Epoch 1, Itrs 40/30000, Loss=0.062188
+Epoch 1, Itrs 50/30000, Loss=0.056102
+Epoch 1, Itrs 60/30000, Loss=0.055395
+Epoch 1, Itrs 70/30000, Loss=0.044737
+Epoch 1, Itrs 80/30000, Loss=0.047196
+Epoch 1, Itrs 90/30000, Loss=0.047627
+Epoch 1, Itrs 100/30000, Loss=0.044138
+Epoch 1, Itrs 110/30000, Loss=0.046365
+Epoch 1, Itrs 120/30000, Loss=0.044503
+Epoch 1, Itrs 130/30000, Loss=0.047968
+Epoch 1, Itrs 140/30000, Loss=0.044706
+Epoch 1, Itrs 150/30000, Loss=0.040275
+Epoch 1, Itrs 160/30000, Loss=0.039550
+Epoch 1, Itrs 170/30000, Loss=0.042976
+Epoch 1, Itrs 180/30000, Loss=0.041304
+Epoch 1, Itrs 190/30000, Loss=0.040763
+Epoch 1, Itrs 200/30000, Loss=0.038647
+Epoch 1, Itrs 210/30000, Loss=0.040360
+Epoch 1, Itrs 220/30000, Loss=0.040343
+Epoch 1, Itrs 230/30000, Loss=0.039242
+Epoch 1, Itrs 240/30000, Loss=0.037594
+Epoch 1, Itrs 250/30000, Loss=0.043188
+Epoch 1, Itrs 260/30000, Loss=0.037467
+Epoch 1, Itrs 270/30000, Loss=0.038044
+Epoch 1, Itrs 280/30000, Loss=0.040560
+Epoch 1, Itrs 290/30000, Loss=0.041235
+Epoch 1, Itrs 300/30000, Loss=0.037302
+Epoch 1, Itrs 310/30000, Loss=0.039929
+Epoch 1, Itrs 320/30000, Loss=0.040541
+Epoch 1, Itrs 330/30000, Loss=0.041850
+Epoch 1, Itrs 340/30000, Loss=0.039338
+Epoch 1, Itrs 350/30000, Loss=0.040452
+Epoch 1, Itrs 360/30000, Loss=0.036700
+Epoch 1, Itrs 370/30000, Loss=0.040106
+Epoch 1, Itrs 380/30000, Loss=0.034068
+Epoch 1, Itrs 390/30000, Loss=0.034856
+Epoch 1, Itrs 400/30000, Loss=0.034261
+Epoch 1, Itrs 410/30000, Loss=0.037172
+Epoch 1, Itrs 420/30000, Loss=0.037577
+Epoch 1, Itrs 430/30000, Loss=0.044280
+Epoch 1, Itrs 440/30000, Loss=0.036574
+Epoch 1, Itrs 450/30000, Loss=0.037746
+Epoch 1, Itrs 460/30000, Loss=0.037344
+Epoch 1, Itrs 470/30000, Loss=0.036466
+Epoch 1, Itrs 480/30000, Loss=0.038607
+Epoch 1, Itrs 490/30000, Loss=0.038485
+Epoch 1, Itrs 500/30000, Loss=0.033142
+Model saved as checkpoints/latest_deeplabv3plus_resnet50_map_os16.pth
+validation...
+
+Overall Acc: 0.984813
+Mean Acc: 0.645980
+FreqW Acc: 0.972295
+Mean IoU: 0.602008
+
+Model saved as checkpoints/best_deeplabv3plus_resnet50_map_os16.pth
+Epoch 1, Itrs 510/30000, Loss=0.035754
+Epoch 1, Itrs 520/30000, Loss=0.035006
+Epoch 1, Itrs 530/30000, Loss=0.034100
+Epoch 1, Itrs 540/30000, Loss=0.035304
+Epoch 1, Itrs 550/30000, Loss=0.036363
+Epoch 1, Itrs 560/30000, Loss=0.036659
+Epoch 1, Itrs 570/30000, Loss=0.030777
+Epoch 1, Itrs 580/30000, Loss=0.035669
+Epoch 1, Itrs 590/30000, Loss=0.038524
+Epoch 1, Itrs 600/30000, Loss=0.038008
+Epoch 1, Itrs 610/30000, Loss=0.033956
+Epoch 1, Itrs 620/30000, Loss=0.034666
+Epoch 1, Itrs 630/30000, Loss=0.038865
+Epoch 1, Itrs 640/30000, Loss=0.033735
+Epoch 1, Itrs 650/30000, Loss=0.030969
+Epoch 1, Itrs 660/30000, Loss=0.034273
+Epoch 1, Itrs 670/30000, Loss=0.039662
+Epoch 1, Itrs 680/30000, Loss=0.033440
+Epoch 1, Itrs 690/30000, Loss=0.035026
+Epoch 1, Itrs 700/30000, Loss=0.034309
+Epoch 1, Itrs 710/30000, Loss=0.034908
+Epoch 1, Itrs 720/30000, Loss=0.034800
+Epoch 1, Itrs 730/30000, Loss=0.036867
+Epoch 1, Itrs 740/30000, Loss=0.040690
+Epoch 1, Itrs 750/30000, Loss=0.031066
+Epoch 1, Itrs 760/30000, Loss=0.031375
+Epoch 1, Itrs 770/30000, Loss=0.031072
+Epoch 1, Itrs 780/30000, Loss=0.032585
+Epoch 1, Itrs 790/30000, Loss=0.031209
+Epoch 1, Itrs 800/30000, Loss=0.032227
+Epoch 1, Itrs 810/30000, Loss=0.034231
+Epoch 1, Itrs 820/30000, Loss=0.031950
+Epoch 1, Itrs 830/30000, Loss=0.037865
+Epoch 1, Itrs 840/30000, Loss=0.038507
+Epoch 1, Itrs 850/30000, Loss=0.035992
+Epoch 1, Itrs 860/30000, Loss=0.035192
+Epoch 1, Itrs 870/30000, Loss=0.033848
+Epoch 1, Itrs 880/30000, Loss=0.033685
+Epoch 1, Itrs 890/30000, Loss=0.035646
+Epoch 1, Itrs 900/30000, Loss=0.035665
+Epoch 1, Itrs 910/30000, Loss=0.034982
+Epoch 2, Itrs 920/30000, Loss=0.034961
+Epoch 2, Itrs 930/30000, Loss=0.032599
+Epoch 2, Itrs 940/30000, Loss=0.032694
+Epoch 2, Itrs 950/30000, Loss=0.033614
+Epoch 2, Itrs 960/30000, Loss=0.033665
+Epoch 2, Itrs 970/30000, Loss=0.031895
+Epoch 2, Itrs 980/30000, Loss=0.033694
+Epoch 2, Itrs 990/30000, Loss=0.030574
+Epoch 2, Itrs 1000/30000, Loss=0.029036
+Model saved as checkpoints/latest_deeplabv3plus_resnet50_map_os16.pth
+validation...
+
+Overall Acc: 0.985708
+Mean Acc: 0.669108
+FreqW Acc: 0.973358
+Mean IoU: 0.631718
+
+Model saved as checkpoints/best_deeplabv3plus_resnet50_map_os16.pth
+Epoch 2, Itrs 1010/30000, Loss=0.031046
+Epoch 2, Itrs 1020/30000, Loss=0.032251
+Epoch 2, Itrs 1030/30000, Loss=0.033112
+Epoch 2, Itrs 1040/30000, Loss=0.034687
+Epoch 2, Itrs 1050/30000, Loss=0.030931
+Epoch 2, Itrs 1060/30000, Loss=0.036095
+Epoch 2, Itrs 1070/30000, Loss=0.033315
+Epoch 2, Itrs 1080/30000, Loss=0.031904
+Epoch 2, Itrs 1090/30000, Loss=0.032035
+Epoch 2, Itrs 1100/30000, Loss=0.031963
+Epoch 2, Itrs 1110/30000, Loss=0.033831
+Epoch 2, Itrs 1120/30000, Loss=0.030486
+Epoch 2, Itrs 1130/30000, Loss=0.032045
+Epoch 2, Itrs 1140/30000, Loss=0.034430
+Epoch 2, Itrs 1150/30000, Loss=0.029814
+Epoch 2, Itrs 1160/30000, Loss=0.031988
+Epoch 2, Itrs 1170/30000, Loss=0.035025
+Epoch 2, Itrs 1180/30000, Loss=0.030487
+Epoch 2, Itrs 1190/30000, Loss=0.032983
+Epoch 2, Itrs 1200/30000, Loss=0.029332
+Epoch 2, Itrs 1210/30000, Loss=0.031138
+Epoch 2, Itrs 1220/30000, Loss=0.031025
+Epoch 2, Itrs 1230/30000, Loss=0.033558
+Epoch 2, Itrs 1240/30000, Loss=0.029024
+Epoch 2, Itrs 1250/30000, Loss=0.031714
+Epoch 2, Itrs 1260/30000, Loss=0.029656
+Epoch 2, Itrs 1270/30000, Loss=0.029422
+Epoch 2, Itrs 1280/30000, Loss=0.035239
+Epoch 2, Itrs 1290/30000, Loss=0.033570
+Epoch 2, Itrs 1300/30000, Loss=0.029012
+Epoch 2, Itrs 1310/30000, Loss=0.031764
+Epoch 2, Itrs 1320/30000, Loss=0.032040
+Epoch 2, Itrs 1330/30000, Loss=0.028487
+Epoch 2, Itrs 1340/30000, Loss=0.028985
+Epoch 2, Itrs 1350/30000, Loss=0.032627
+Epoch 2, Itrs 1360/30000, Loss=0.036760
+Epoch 2, Itrs 1370/30000, Loss=0.033459
+Epoch 2, Itrs 1380/30000, Loss=0.031563
+Epoch 2, Itrs 1390/30000, Loss=0.032592
+Epoch 2, Itrs 1400/30000, Loss=0.029143
+Epoch 2, Itrs 1410/30000, Loss=0.033495
+Epoch 2, Itrs 1420/30000, Loss=0.033249
+Epoch 2, Itrs 1430/30000, Loss=0.030724
+Epoch 2, Itrs 1440/30000, Loss=0.033392
+Epoch 2, Itrs 1450/30000, Loss=0.029862
+Epoch 2, Itrs 1460/30000, Loss=0.033172
+Epoch 2, Itrs 1470/30000, Loss=0.030317
+Epoch 2, Itrs 1480/30000, Loss=0.031741
+Epoch 2, Itrs 1490/30000, Loss=0.036413
+Epoch 2, Itrs 1500/30000, Loss=0.031646
+Model saved as checkpoints/latest_deeplabv3plus_resnet50_map_os16.pth
+validation...
+
+Overall Acc: 0.986070
+Mean Acc: 0.706361
+FreqW Acc: 0.974592
+Mean IoU: 0.663439
+
+Model saved as checkpoints/best_deeplabv3plus_resnet50_map_os16.pth
+Epoch 2, Itrs 1510/30000, Loss=0.033618
+Epoch 2, Itrs 1520/30000, Loss=0.031101
+Epoch 2, Itrs 1530/30000, Loss=0.030927
+Epoch 2, Itrs 1540/30000, Loss=0.034379
+Epoch 2, Itrs 1550/30000, Loss=0.028528
+Epoch 2, Itrs 1560/30000, Loss=0.031126
+Epoch 2, Itrs 1570/30000, Loss=0.030973
+Epoch 2, Itrs 1580/30000, Loss=0.028194
+Epoch 2, Itrs 1590/30000, Loss=0.030662
+Epoch 2, Itrs 1600/30000, Loss=0.030484
+Epoch 2, Itrs 1610/30000, Loss=0.034435
+Epoch 2, Itrs 1620/30000, Loss=0.031281
+Epoch 2, Itrs 1630/30000, Loss=0.031405
+Epoch 2, Itrs 1640/30000, Loss=0.029444
+Epoch 2, Itrs 1650/30000, Loss=0.030617
+Epoch 2, Itrs 1660/30000, Loss=0.030646
+Epoch 2, Itrs 1670/30000, Loss=0.028322
+Epoch 2, Itrs 1680/30000, Loss=0.032597
+Epoch 2, Itrs 1690/30000, Loss=0.032937
+Epoch 2, Itrs 1700/30000, Loss=0.028471
+Epoch 2, Itrs 1710/30000, Loss=0.030502
+Epoch 2, Itrs 1720/30000, Loss=0.035552
+Epoch 2, Itrs 1730/30000, Loss=0.031514
+Epoch 2, Itrs 1740/30000, Loss=0.031016
+Epoch 2, Itrs 1750/30000, Loss=0.028536
+Epoch 2, Itrs 1760/30000, Loss=0.030057
+Epoch 2, Itrs 1770/30000, Loss=0.032859
+Epoch 2, Itrs 1780/30000, Loss=0.031644
+Epoch 2, Itrs 1790/30000, Loss=0.029091
+Epoch 2, Itrs 1800/30000, Loss=0.032453
+Epoch 2, Itrs 1810/30000, Loss=0.032771
+Epoch 2, Itrs 1820/30000, Loss=0.027253
+Epoch 2, Itrs 1830/30000, Loss=0.031954
+Epoch 3, Itrs 1840/30000, Loss=0.029462
+Epoch 3, Itrs 1850/30000, Loss=0.031410
+Epoch 3, Itrs 1860/30000, Loss=0.032225
+Epoch 3, Itrs 1870/30000, Loss=0.031081
+Epoch 3, Itrs 1880/30000, Loss=0.030472
+Epoch 3, Itrs 1890/30000, Loss=0.028091
+Epoch 3, Itrs 1900/30000, Loss=0.031014
+Epoch 3, Itrs 1910/30000, Loss=0.029079
+Epoch 3, Itrs 1920/30000, Loss=0.031804
+Epoch 3, Itrs 1930/30000, Loss=0.029876
+Epoch 3, Itrs 1940/30000, Loss=0.028445
+Epoch 3, Itrs 1950/30000, Loss=0.025868
+Epoch 3, Itrs 1960/30000, Loss=0.025643
+Epoch 3, Itrs 1970/30000, Loss=0.029610
+Epoch 3, Itrs 1980/30000, Loss=0.024621
+Epoch 3, Itrs 1990/30000, Loss=0.027139
+Epoch 3, Itrs 2000/30000, Loss=0.030409
+Model saved as checkpoints/latest_deeplabv3plus_resnet50_map_os16.pth
+validation...
+
+Overall Acc: 0.986377
+Mean Acc: 0.723090
+FreqW Acc: 0.975285
+Mean IoU: 0.678009
+
+Model saved as checkpoints/best_deeplabv3plus_resnet50_map_os16.pth
+Epoch 3, Itrs 2010/30000, Loss=0.031422
+Epoch 3, Itrs 2020/30000, Loss=0.031555
+Epoch 3, Itrs 2030/30000, Loss=0.030156
+Epoch 3, Itrs 2040/30000, Loss=0.030169
+Epoch 3, Itrs 2050/30000, Loss=0.029493
+Epoch 3, Itrs 2060/30000, Loss=0.028195
+Epoch 3, Itrs 2070/30000, Loss=0.030545
+Epoch 3, Itrs 2080/30000, Loss=0.032131
+Epoch 3, Itrs 2090/30000, Loss=0.027857
+Epoch 3, Itrs 2100/30000, Loss=0.027097
+Epoch 3, Itrs 2110/30000, Loss=0.030009
+Epoch 3, Itrs 2120/30000, Loss=0.031799
+Epoch 3, Itrs 2130/30000, Loss=0.035500
+Epoch 3, Itrs 2140/30000, Loss=0.025622
+Epoch 3, Itrs 2150/30000, Loss=0.029457
+Epoch 3, Itrs 2160/30000, Loss=0.026706
+Epoch 3, Itrs 2170/30000, Loss=0.027949
+Epoch 3, Itrs 2180/30000, Loss=0.030554
+Epoch 3, Itrs 2190/30000, Loss=0.029716
+Epoch 3, Itrs 2200/30000, Loss=0.029449
+Epoch 3, Itrs 2210/30000, Loss=0.029292
+Epoch 3, Itrs 2220/30000, Loss=0.030962
+Epoch 3, Itrs 2230/30000, Loss=0.029780
+Epoch 3, Itrs 2240/30000, Loss=0.029286
+Epoch 3, Itrs 2250/30000, Loss=0.028942
+Epoch 3, Itrs 2260/30000, Loss=0.027603
+Epoch 3, Itrs 2270/30000, Loss=0.027894
+Epoch 3, Itrs 2280/30000, Loss=0.028904
+Epoch 3, Itrs 2290/30000, Loss=0.026513
+Epoch 3, Itrs 2300/30000, Loss=0.030701
+Epoch 3, Itrs 2310/30000, Loss=0.032622
+Epoch 3, Itrs 2320/30000, Loss=0.027351
+Epoch 3, Itrs 2330/30000, Loss=0.029969
+Epoch 3, Itrs 2340/30000, Loss=0.030711
+Epoch 3, Itrs 2350/30000, Loss=0.031651
+Epoch 3, Itrs 2360/30000, Loss=0.029655
+Epoch 3, Itrs 2370/30000, Loss=0.028382
+Epoch 3, Itrs 2380/30000, Loss=0.027182
+Epoch 3, Itrs 2390/30000, Loss=0.028005
+Epoch 3, Itrs 2400/30000, Loss=0.031044
+Epoch 3, Itrs 2410/30000, Loss=0.028400
+Epoch 3, Itrs 2420/30000, Loss=0.032604
+Epoch 3, Itrs 2430/30000, Loss=0.026452
+Epoch 3, Itrs 2440/30000, Loss=0.027657
+Epoch 3, Itrs 2450/30000, Loss=0.028544
+Epoch 3, Itrs 2460/30000, Loss=0.028103
+Epoch 3, Itrs 2470/30000, Loss=0.029165
+Epoch 3, Itrs 2480/30000, Loss=0.029126
+Epoch 3, Itrs 2490/30000, Loss=0.032779
+Epoch 3, Itrs 2500/30000, Loss=0.027546
+Model saved as checkpoints/latest_deeplabv3plus_resnet50_map_os16.pth
+validation...
+
+Overall Acc: 0.986621
+Mean Acc: 0.720720
+FreqW Acc: 0.975462
+Mean IoU: 0.679756
+
+Model saved as checkpoints/best_deeplabv3plus_resnet50_map_os16.pth
+Epoch 3, Itrs 2510/30000, Loss=0.028895
+Epoch 3, Itrs 2520/30000, Loss=0.029789
+Epoch 3, Itrs 2530/30000, Loss=0.028288
+Epoch 3, Itrs 2540/30000, Loss=0.030099
+Epoch 3, Itrs 2550/30000, Loss=0.030383
+Epoch 3, Itrs 2560/30000, Loss=0.029531
+Epoch 3, Itrs 2570/30000, Loss=0.024419
+Epoch 3, Itrs 2580/30000, Loss=0.030871
+Epoch 3, Itrs 2590/30000, Loss=0.030484
+Epoch 3, Itrs 2600/30000, Loss=0.027724
+Epoch 3, Itrs 2610/30000, Loss=0.033887
+Epoch 3, Itrs 2620/30000, Loss=0.032929
+Epoch 3, Itrs 2630/30000, Loss=0.028149
+Epoch 3, Itrs 2640/30000, Loss=0.027701
+Epoch 3, Itrs 2650/30000, Loss=0.027645
+Epoch 3, Itrs 2660/30000, Loss=0.029572
+Epoch 3, Itrs 2670/30000, Loss=0.031086
+Epoch 3, Itrs 2680/30000, Loss=0.028015
+Epoch 3, Itrs 2690/30000, Loss=0.032054
+Epoch 3, Itrs 2700/30000, Loss=0.026558
+Epoch 3, Itrs 2710/30000, Loss=0.030251
+Epoch 3, Itrs 2720/30000, Loss=0.028364
+Epoch 3, Itrs 2730/30000, Loss=0.028707
+Epoch 3, Itrs 2740/30000, Loss=0.031585
+Epoch 3, Itrs 2750/30000, Loss=0.032181
+Epoch 4, Itrs 2760/30000, Loss=0.026609
+Epoch 4, Itrs 2770/30000, Loss=0.026395
+Epoch 4, Itrs 2780/30000, Loss=0.028168
+Epoch 4, Itrs 2790/30000, Loss=0.030119
+Epoch 4, Itrs 2800/30000, Loss=0.024697
+Epoch 4, Itrs 2810/30000, Loss=0.029780
+Epoch 4, Itrs 2820/30000, Loss=0.028121
+Epoch 4, Itrs 2830/30000, Loss=0.028139
+Epoch 4, Itrs 2840/30000, Loss=0.028235
+Epoch 4, Itrs 2850/30000, Loss=0.026434
+Epoch 4, Itrs 2860/30000, Loss=0.029752
+Epoch 4, Itrs 2870/30000, Loss=0.029337
+Epoch 4, Itrs 2880/30000, Loss=0.025875
+Epoch 4, Itrs 2890/30000, Loss=0.028042
+Epoch 4, Itrs 2900/30000, Loss=0.028003
+Epoch 4, Itrs 2910/30000, Loss=0.028349
+Epoch 4, Itrs 2920/30000, Loss=0.031040
+Epoch 4, Itrs 2930/30000, Loss=0.023981
+Epoch 4, Itrs 2940/30000, Loss=0.029830
+Epoch 4, Itrs 2950/30000, Loss=0.025582
+Epoch 4, Itrs 2960/30000, Loss=0.026162
+Epoch 4, Itrs 2970/30000, Loss=0.028197
+Epoch 4, Itrs 2980/30000, Loss=0.026929
+Epoch 4, Itrs 2990/30000, Loss=0.030320
+Epoch 4, Itrs 3000/30000, Loss=0.026057
+Model saved as checkpoints/latest_deeplabv3plus_resnet50_map_os16.pth
+validation...
+
+Overall Acc: 0.986834
+Mean Acc: 0.738639
+FreqW Acc: 0.976117
+Mean IoU: 0.693023
+
+Model saved as checkpoints/best_deeplabv3plus_resnet50_map_os16.pth
+Epoch 4, Itrs 3010/30000, Loss=0.026794
+Epoch 4, Itrs 3020/30000, Loss=0.032052
+Epoch 4, Itrs 3030/30000, Loss=0.029803
+Epoch 4, Itrs 3040/30000, Loss=0.028592
+Epoch 4, Itrs 3050/30000, Loss=0.027202
+Epoch 4, Itrs 3060/30000, Loss=0.029203
+Epoch 4, Itrs 3070/30000, Loss=0.031532
+Epoch 4, Itrs 3080/30000, Loss=0.024668
+Epoch 4, Itrs 3090/30000, Loss=0.029104
+Epoch 4, Itrs 3100/30000, Loss=0.028055
+Epoch 4, Itrs 3110/30000, Loss=0.026542
+Epoch 4, Itrs 3120/30000, Loss=0.027398
+Epoch 4, Itrs 3130/30000, Loss=0.026520
+Epoch 4, Itrs 3140/30000, Loss=0.026678
+Epoch 4, Itrs 3150/30000, Loss=0.024166
+Epoch 4, Itrs 3160/30000, Loss=0.029976
+Epoch 4, Itrs 3170/30000, Loss=0.029210
+Epoch 4, Itrs 3180/30000, Loss=0.028649
+Epoch 4, Itrs 3190/30000, Loss=0.030354
+Epoch 4, Itrs 3200/30000, Loss=0.028769
+Epoch 4, Itrs 3210/30000, Loss=0.027847
+Epoch 4, Itrs 3220/30000, Loss=0.028711
+Epoch 4, Itrs 3230/30000, Loss=0.029046
+Epoch 4, Itrs 3240/30000, Loss=0.025259
+Epoch 4, Itrs 3250/30000, Loss=0.032325
+Epoch 4, Itrs 3260/30000, Loss=0.028961
+Epoch 4, Itrs 3270/30000, Loss=0.026212
+Epoch 4, Itrs 3280/30000, Loss=0.026191
+Epoch 4, Itrs 3290/30000, Loss=0.027644
+Epoch 4, Itrs 3300/30000, Loss=0.027993
+Epoch 4, Itrs 3310/30000, Loss=0.026561
+Epoch 4, Itrs 3320/30000, Loss=0.028237
+Epoch 4, Itrs 3330/30000, Loss=0.030423
+Epoch 4, Itrs 3340/30000, Loss=0.027129
+Epoch 4, Itrs 3350/30000, Loss=0.027260
+Epoch 4, Itrs 3360/30000, Loss=0.029005
+Epoch 4, Itrs 3370/30000, Loss=0.025055
+Epoch 4, Itrs 3380/30000, Loss=0.028447
+Epoch 4, Itrs 3390/30000, Loss=0.029937
+Epoch 4, Itrs 3400/30000, Loss=0.028002
+Epoch 4, Itrs 3410/30000, Loss=0.028787
+Epoch 4, Itrs 3420/30000, Loss=0.027103
+Epoch 4, Itrs 3430/30000, Loss=0.029021
+Epoch 4, Itrs 3440/30000, Loss=0.030895
+Epoch 4, Itrs 3450/30000, Loss=0.028838
+Epoch 4, Itrs 3460/30000, Loss=0.028281
+Epoch 4, Itrs 3470/30000, Loss=0.031849
+Epoch 4, Itrs 3480/30000, Loss=0.026437
+Epoch 4, Itrs 3490/30000, Loss=0.031860
+Epoch 4, Itrs 3500/30000, Loss=0.026841
+Model saved as checkpoints/latest_deeplabv3plus_resnet50_map_os16.pth
+validation...
+
+Overall Acc: 0.986973
+Mean Acc: 0.751290
+FreqW Acc: 0.976541
+Mean IoU: 0.701497
+
+Model saved as checkpoints/best_deeplabv3plus_resnet50_map_os16.pth
+Epoch 4, Itrs 3510/30000, Loss=0.025247
+Epoch 4, Itrs 3520/30000, Loss=0.029508
+Epoch 4, Itrs 3530/30000, Loss=0.026592
+Epoch 4, Itrs 3540/30000, Loss=0.026516
+Epoch 4, Itrs 3550/30000, Loss=0.028287
+Epoch 4, Itrs 3560/30000, Loss=0.027586
+Epoch 4, Itrs 3570/30000, Loss=0.025050
+Epoch 4, Itrs 3580/30000, Loss=0.028889
+Epoch 4, Itrs 3590/30000, Loss=0.025533
+Epoch 4, Itrs 3600/30000, Loss=0.027517
+Epoch 4, Itrs 3610/30000, Loss=0.027792
+Epoch 4, Itrs 3620/30000, Loss=0.029938
+Epoch 4, Itrs 3630/30000, Loss=0.027742
+Epoch 4, Itrs 3640/30000, Loss=0.025075
+Epoch 4, Itrs 3650/30000, Loss=0.029931
+Epoch 4, Itrs 3660/30000, Loss=0.030916
+Epoch 4, Itrs 3670/30000, Loss=0.027266
+Epoch 5, Itrs 3680/30000, Loss=0.028334
+Epoch 5, Itrs 3690/30000, Loss=0.026205
+Epoch 5, Itrs 3700/30000, Loss=0.028082
+Epoch 5, Itrs 3710/30000, Loss=0.027321
+Epoch 5, Itrs 3720/30000, Loss=0.028359
+Epoch 5, Itrs 3730/30000, Loss=0.029262
+Epoch 5, Itrs 3740/30000, Loss=0.027528
+Epoch 5, Itrs 3750/30000, Loss=0.029075
+Epoch 5, Itrs 3760/30000, Loss=0.027704
+Epoch 5, Itrs 3770/30000, Loss=0.029329
+Epoch 5, Itrs 3780/30000, Loss=0.028093
+Epoch 5, Itrs 3790/30000, Loss=0.025009
+Epoch 5, Itrs 3800/30000, Loss=0.029527
+Epoch 5, Itrs 3810/30000, Loss=0.028187
+Epoch 5, Itrs 3820/30000, Loss=0.027516
+Epoch 5, Itrs 3830/30000, Loss=0.025701
+Epoch 5, Itrs 3840/30000, Loss=0.026961
+Epoch 5, Itrs 3850/30000, Loss=0.023668
+Epoch 5, Itrs 3860/30000, Loss=0.028366
+Epoch 5, Itrs 3870/30000, Loss=0.029902
+Epoch 5, Itrs 3880/30000, Loss=0.028616
+Epoch 5, Itrs 3890/30000, Loss=0.030221
+Epoch 5, Itrs 3900/30000, Loss=0.026448
+Epoch 5, Itrs 3910/30000, Loss=0.026252
+Epoch 5, Itrs 3920/30000, Loss=0.023472
+Epoch 5, Itrs 3930/30000, Loss=0.024726
+Epoch 5, Itrs 3940/30000, Loss=0.023004
+Epoch 5, Itrs 3950/30000, Loss=0.027454
+Epoch 5, Itrs 3960/30000, Loss=0.024304
+Epoch 5, Itrs 3970/30000, Loss=0.025776
+Epoch 5, Itrs 3980/30000, Loss=0.026327
+Epoch 5, Itrs 3990/30000, Loss=0.030433
+Epoch 5, Itrs 4000/30000, Loss=0.025309
+Model saved as checkpoints/latest_deeplabv3plus_resnet50_map_os16.pth
+validation...
+
+Overall Acc: 0.987130
+Mean Acc: 0.756296
+FreqW Acc: 0.976807
+Mean IoU: 0.705541
+
+Model saved as checkpoints/best_deeplabv3plus_resnet50_map_os16.pth
+Epoch 5, Itrs 4010/30000, Loss=0.028528
+Epoch 5, Itrs 4020/30000, Loss=0.026639
+Epoch 5, Itrs 4030/30000, Loss=0.025915
+Epoch 5, Itrs 4040/30000, Loss=0.031792
+Epoch 5, Itrs 4050/30000, Loss=0.030819
+Epoch 5, Itrs 4060/30000, Loss=0.027031
+Epoch 5, Itrs 4070/30000, Loss=0.029177
+Epoch 5, Itrs 4080/30000, Loss=0.026347
+Epoch 5, Itrs 4090/30000, Loss=0.026741
+Epoch 5, Itrs 4100/30000, Loss=0.028737
+Epoch 5, Itrs 4110/30000, Loss=0.025321
+Epoch 5, Itrs 4120/30000, Loss=0.027384
+Epoch 5, Itrs 4130/30000, Loss=0.029852
+Epoch 5, Itrs 4140/30000, Loss=0.028822
+Epoch 5, Itrs 4150/30000, Loss=0.028367
+Epoch 5, Itrs 4160/30000, Loss=0.026502
+Epoch 5, Itrs 4170/30000, Loss=0.023814
+Epoch 5, Itrs 4180/30000, Loss=0.026597
+Epoch 5, Itrs 4190/30000, Loss=0.028627
+Epoch 5, Itrs 4200/30000, Loss=0.027530
+Epoch 5, Itrs 4210/30000, Loss=0.029770
+Epoch 5, Itrs 4220/30000, Loss=0.030100
+Epoch 5, Itrs 4230/30000, Loss=0.025900
+Epoch 5, Itrs 4240/30000, Loss=0.028012
+Epoch 5, Itrs 4250/30000, Loss=0.026776
+Epoch 5, Itrs 4260/30000, Loss=0.025450
+Epoch 5, Itrs 4270/30000, Loss=0.030490
+Epoch 5, Itrs 4280/30000, Loss=0.028060
+Epoch 5, Itrs 4290/30000, Loss=0.027936
+Epoch 5, Itrs 4300/30000, Loss=0.022173
+Epoch 5, Itrs 4310/30000, Loss=0.027884
+Epoch 5, Itrs 4320/30000, Loss=0.023708
+Epoch 5, Itrs 4330/30000, Loss=0.025245
+Epoch 5, Itrs 4340/30000, Loss=0.024639
+Epoch 5, Itrs 4350/30000, Loss=0.029857
+Epoch 5, Itrs 4360/30000, Loss=0.027702
+Epoch 5, Itrs 4370/30000, Loss=0.026627
+Epoch 5, Itrs 4380/30000, Loss=0.027501
+Epoch 5, Itrs 4390/30000, Loss=0.026662
+Epoch 5, Itrs 4400/30000, Loss=0.027292
+Epoch 5, Itrs 4410/30000, Loss=0.025476
+Epoch 5, Itrs 4420/30000, Loss=0.029717
+Epoch 5, Itrs 4430/30000, Loss=0.025823
+Epoch 5, Itrs 4440/30000, Loss=0.024068
+Epoch 5, Itrs 4450/30000, Loss=0.024425
+Epoch 5, Itrs 4460/30000, Loss=0.029339
+Epoch 5, Itrs 4470/30000, Loss=0.028648
+Epoch 5, Itrs 4480/30000, Loss=0.025241
+Epoch 5, Itrs 4490/30000, Loss=0.024654
+Epoch 5, Itrs 4500/30000, Loss=0.027317
+Model saved as checkpoints/latest_deeplabv3plus_resnet50_map_os16.pth
+validation...
+
+Overall Acc: 0.987266
+Mean Acc: 0.769126
+FreqW Acc: 0.977228
+Mean IoU: 0.713485
+
+Model saved as checkpoints/best_deeplabv3plus_resnet50_map_os16.pth
+Epoch 5, Itrs 4510/30000, Loss=0.024732
+Epoch 5, Itrs 4520/30000, Loss=0.026453
+Epoch 5, Itrs 4530/30000, Loss=0.034599
+Epoch 5, Itrs 4540/30000, Loss=0.025195
+Epoch 5, Itrs 4550/30000, Loss=0.026287
+Epoch 5, Itrs 4560/30000, Loss=0.024112
+Epoch 5, Itrs 4570/30000, Loss=0.029249
+Epoch 5, Itrs 4580/30000, Loss=0.027492
+Epoch 5, Itrs 4590/30000, Loss=0.024663
+Epoch 6, Itrs 4600/30000, Loss=0.027365
+Epoch 6, Itrs 4610/30000, Loss=0.023666
+Epoch 6, Itrs 4620/30000, Loss=0.025596
+Epoch 6, Itrs 4630/30000, Loss=0.029631
+Epoch 6, Itrs 4640/30000, Loss=0.026104
+Epoch 6, Itrs 4650/30000, Loss=0.027124
+Epoch 6, Itrs 4660/30000, Loss=0.027406
+Epoch 6, Itrs 4670/30000, Loss=0.029629
+Epoch 6, Itrs 4680/30000, Loss=0.025496
+Epoch 6, Itrs 4690/30000, Loss=0.027954
+Epoch 6, Itrs 4700/30000, Loss=0.024297
+Epoch 6, Itrs 4710/30000, Loss=0.025493
+Epoch 6, Itrs 4720/30000, Loss=0.026783
+Epoch 6, Itrs 4730/30000, Loss=0.029182
+Epoch 6, Itrs 4740/30000, Loss=0.029377
+Epoch 6, Itrs 4750/30000, Loss=0.025848
+Epoch 6, Itrs 4760/30000, Loss=0.023718
+Epoch 6, Itrs 4770/30000, Loss=0.025715
+Epoch 6, Itrs 4780/30000, Loss=0.024158
+Epoch 6, Itrs 4790/30000, Loss=0.023765
+Epoch 6, Itrs 4800/30000, Loss=0.025315
+Epoch 6, Itrs 4810/30000, Loss=0.028117
+Epoch 6, Itrs 4820/30000, Loss=0.026088
+Epoch 6, Itrs 4830/30000, Loss=0.027169
+Epoch 6, Itrs 4840/30000, Loss=0.026085
+Epoch 6, Itrs 4850/30000, Loss=0.025770
+Epoch 6, Itrs 4860/30000, Loss=0.027241
+Epoch 6, Itrs 4870/30000, Loss=0.026921
+Epoch 6, Itrs 4880/30000, Loss=0.026731
+Epoch 6, Itrs 4890/30000, Loss=0.026309
+Epoch 6, Itrs 4900/30000, Loss=0.027589
+Epoch 6, Itrs 4910/30000, Loss=0.024130
+Epoch 6, Itrs 4920/30000, Loss=0.027971
+Epoch 6, Itrs 4930/30000, Loss=0.030926
+Epoch 6, Itrs 4940/30000, Loss=0.025836
+Epoch 6, Itrs 4950/30000, Loss=0.026001
+Epoch 6, Itrs 4960/30000, Loss=0.023830
+Epoch 6, Itrs 4970/30000, Loss=0.027273
+Epoch 6, Itrs 4980/30000, Loss=0.027209
+Epoch 6, Itrs 4990/30000, Loss=0.027288
+Epoch 6, Itrs 5000/30000, Loss=0.026601
+Model saved as checkpoints/latest_deeplabv3plus_resnet50_map_os16.pth
+validation...
+
+Overall Acc: 0.987360
+Mean Acc: 0.758645
+FreqW Acc: 0.977182
+Mean IoU: 0.711208
+
+Epoch 6, Itrs 5010/30000, Loss=0.029112
+Epoch 6, Itrs 5020/30000, Loss=0.026462
+Epoch 6, Itrs 5030/30000, Loss=0.024809
+Epoch 6, Itrs 5040/30000, Loss=0.028070
+Epoch 6, Itrs 5050/30000, Loss=0.026928
+Epoch 6, Itrs 5060/30000, Loss=0.025842
+Epoch 6, Itrs 5070/30000, Loss=0.026490
+Epoch 6, Itrs 5080/30000, Loss=0.025540
+Epoch 6, Itrs 5090/30000, Loss=0.027843
+Epoch 6, Itrs 5100/30000, Loss=0.031419
+Epoch 6, Itrs 5110/30000, Loss=0.028493
+Epoch 6, Itrs 5120/30000, Loss=0.025847
+Epoch 6, Itrs 5130/30000, Loss=0.025116
+Epoch 6, Itrs 5140/30000, Loss=0.026279
+Epoch 6, Itrs 5150/30000, Loss=0.028615
+Epoch 6, Itrs 5160/30000, Loss=0.027928
+Epoch 6, Itrs 5170/30000, Loss=0.028158
+Epoch 6, Itrs 5180/30000, Loss=0.029044
+Epoch 6, Itrs 5190/30000, Loss=0.026367
+Epoch 6, Itrs 5200/30000, Loss=0.026440
+Epoch 6, Itrs 5210/30000, Loss=0.026116
+Epoch 6, Itrs 5220/30000, Loss=0.024846
+Epoch 6, Itrs 5230/30000, Loss=0.024385
+Epoch 6, Itrs 5240/30000, Loss=0.028692
+Epoch 6, Itrs 5250/30000, Loss=0.025806
+Epoch 6, Itrs 5260/30000, Loss=0.029091
+Epoch 6, Itrs 5270/30000, Loss=0.026058
+Epoch 6, Itrs 5280/30000, Loss=0.024178
+Epoch 6, Itrs 5290/30000, Loss=0.026774
+Epoch 6, Itrs 5300/30000, Loss=0.024702
+Epoch 6, Itrs 5310/30000, Loss=0.026647
+Epoch 6, Itrs 5320/30000, Loss=0.027304
+Epoch 6, Itrs 5330/30000, Loss=0.029928
+Epoch 6, Itrs 5340/30000, Loss=0.025636
+Epoch 6, Itrs 5350/30000, Loss=0.025850
+Epoch 6, Itrs 5360/30000, Loss=0.027430
+Epoch 6, Itrs 5370/30000, Loss=0.023541
+Epoch 6, Itrs 5380/30000, Loss=0.025304
+Epoch 6, Itrs 5390/30000, Loss=0.027909
+Epoch 6, Itrs 5400/30000, Loss=0.028035
+Epoch 6, Itrs 5410/30000, Loss=0.024858
+Epoch 6, Itrs 5420/30000, Loss=0.025129
+Epoch 6, Itrs 5430/30000, Loss=0.029438
+Epoch 6, Itrs 5440/30000, Loss=0.026337
+Epoch 6, Itrs 5450/30000, Loss=0.025330
+Epoch 6, Itrs 5460/30000, Loss=0.023624
+Epoch 6, Itrs 5470/30000, Loss=0.027220
+Epoch 6, Itrs 5480/30000, Loss=0.026796
+Epoch 6, Itrs 5490/30000, Loss=0.022001
+Epoch 6, Itrs 5500/30000, Loss=0.025595
+Model saved as checkpoints/latest_deeplabv3plus_resnet50_map_os16.pth
+validation...
+
+Overall Acc: 0.987486
+Mean Acc: 0.775114
+FreqW Acc: 0.977640
+Mean IoU: 0.719894
+
+Model saved as checkpoints/best_deeplabv3plus_resnet50_map_os16.pth
+Epoch 7, Itrs 5510/30000, Loss=0.023143
+Epoch 7, Itrs 5520/30000, Loss=0.027945
+Epoch 7, Itrs 5530/30000, Loss=0.024906
+Epoch 7, Itrs 5540/30000, Loss=0.027204
+Epoch 7, Itrs 5550/30000, Loss=0.025691
+Epoch 7, Itrs 5560/30000, Loss=0.027156
+Epoch 7, Itrs 5570/30000, Loss=0.025881
+Epoch 7, Itrs 5580/30000, Loss=0.027087
+Epoch 7, Itrs 5590/30000, Loss=0.027068
+Epoch 7, Itrs 5600/30000, Loss=0.026797
+Epoch 7, Itrs 5610/30000, Loss=0.024883
+Epoch 7, Itrs 5620/30000, Loss=0.022681
+Epoch 7, Itrs 5630/30000, Loss=0.024560
+Epoch 7, Itrs 5640/30000, Loss=0.031720
+Epoch 7, Itrs 5650/30000, Loss=0.024999
+Epoch 7, Itrs 5660/30000, Loss=0.024932
+Epoch 7, Itrs 5670/30000, Loss=0.026280
+Epoch 7, Itrs 5680/30000, Loss=0.027739
+Epoch 7, Itrs 5690/30000, Loss=0.026232
+Epoch 7, Itrs 5700/30000, Loss=0.030174
+Epoch 7, Itrs 5710/30000, Loss=0.026855
+Epoch 7, Itrs 5720/30000, Loss=0.024819
+Epoch 7, Itrs 5730/30000, Loss=0.023874
+Epoch 7, Itrs 5740/30000, Loss=0.023826
+Epoch 7, Itrs 5750/30000, Loss=0.024449
+Epoch 7, Itrs 5760/30000, Loss=0.027479
+Epoch 7, Itrs 5770/30000, Loss=0.028534
+Epoch 7, Itrs 5780/30000, Loss=0.023886
+Epoch 7, Itrs 5790/30000, Loss=0.025863
+Epoch 7, Itrs 5800/30000, Loss=0.025566
+Epoch 7, Itrs 5810/30000, Loss=0.025919
+Epoch 7, Itrs 5820/30000, Loss=0.023918
+Epoch 7, Itrs 5830/30000, Loss=0.025315
+Epoch 7, Itrs 5840/30000, Loss=0.025329
+Epoch 7, Itrs 5850/30000, Loss=0.026222
+Epoch 7, Itrs 5860/30000, Loss=0.028018
+Epoch 7, Itrs 5870/30000, Loss=0.025453
+Epoch 7, Itrs 5880/30000, Loss=0.027663
+Epoch 7, Itrs 5890/30000, Loss=0.029003
+Epoch 7, Itrs 5900/30000, Loss=0.025078
+Epoch 7, Itrs 5910/30000, Loss=0.027635
+Epoch 7, Itrs 5920/30000, Loss=0.027112
+Epoch 7, Itrs 5930/30000, Loss=0.024966
+Epoch 7, Itrs 5940/30000, Loss=0.026246
+Epoch 7, Itrs 5950/30000, Loss=0.025314
+Epoch 7, Itrs 5960/30000, Loss=0.025271
+Epoch 7, Itrs 5970/30000, Loss=0.027947
+Epoch 7, Itrs 5980/30000, Loss=0.024839
+Epoch 7, Itrs 5990/30000, Loss=0.023975
+Epoch 7, Itrs 6000/30000, Loss=0.030881
+Model saved as checkpoints/latest_deeplabv3plus_resnet50_map_os16.pth
+validation...
+
+Overall Acc: 0.987548
+Mean Acc: 0.795147
+FreqW Acc: 0.978164
+Mean IoU: 0.731748
+
+Model saved as checkpoints/best_deeplabv3plus_resnet50_map_os16.pth
+Epoch 7, Itrs 6010/30000, Loss=0.029125
+Epoch 7, Itrs 6020/30000, Loss=0.027850
+Epoch 7, Itrs 6030/30000, Loss=0.027065
+Epoch 7, Itrs 6040/30000, Loss=0.025032
+Epoch 7, Itrs 6050/30000, Loss=0.023666
+Epoch 7, Itrs 6060/30000, Loss=0.025993
+Epoch 7, Itrs 6070/30000, Loss=0.028536
+Epoch 7, Itrs 6080/30000, Loss=0.026493
+Epoch 7, Itrs 6090/30000, Loss=0.024759
+Epoch 7, Itrs 6100/30000, Loss=0.019568
+Epoch 7, Itrs 6110/30000, Loss=0.025906
+Epoch 7, Itrs 6120/30000, Loss=0.022985
+Epoch 7, Itrs 6130/30000, Loss=0.024990
+Epoch 7, Itrs 6140/30000, Loss=0.028576
+Epoch 7, Itrs 6150/30000, Loss=0.025622
+Epoch 7, Itrs 6160/30000, Loss=0.026866
+Epoch 7, Itrs 6170/30000, Loss=0.023738
+Epoch 7, Itrs 6180/30000, Loss=0.024697
+Epoch 7, Itrs 6190/30000, Loss=0.028308
+Epoch 7, Itrs 6200/30000, Loss=0.024299
+Epoch 7, Itrs 6210/30000, Loss=0.028726
+Epoch 7, Itrs 6220/30000, Loss=0.026337
+Epoch 7, Itrs 6230/30000, Loss=0.025590
+Epoch 7, Itrs 6240/30000, Loss=0.026251
+Epoch 7, Itrs 6250/30000, Loss=0.026436
+Epoch 7, Itrs 6260/30000, Loss=0.023074
+Epoch 7, Itrs 6270/30000, Loss=0.024945
+Epoch 7, Itrs 6280/30000, Loss=0.026283
+Epoch 7, Itrs 6290/30000, Loss=0.024481
+Epoch 7, Itrs 6300/30000, Loss=0.027055
+Epoch 7, Itrs 6310/30000, Loss=0.027113
+Epoch 7, Itrs 6320/30000, Loss=0.023826
+Epoch 7, Itrs 6330/30000, Loss=0.023969
+Epoch 7, Itrs 6340/30000, Loss=0.024673
+Epoch 7, Itrs 6350/30000, Loss=0.025054
+Epoch 7, Itrs 6360/30000, Loss=0.026981
+Epoch 7, Itrs 6370/30000, Loss=0.025863
+Epoch 7, Itrs 6380/30000, Loss=0.027002
+Epoch 7, Itrs 6390/30000, Loss=0.025897
+Epoch 7, Itrs 6400/30000, Loss=0.024939
+Epoch 7, Itrs 6410/30000, Loss=0.025564
+Epoch 7, Itrs 6420/30000, Loss=0.028636
+Epoch 8, Itrs 6430/30000, Loss=0.025406
+Epoch 8, Itrs 6440/30000, Loss=0.025811
+Epoch 8, Itrs 6450/30000, Loss=0.025814
+Epoch 8, Itrs 6460/30000, Loss=0.028833
+Epoch 8, Itrs 6470/30000, Loss=0.030138
+Epoch 8, Itrs 6480/30000, Loss=0.028653
+Epoch 8, Itrs 6490/30000, Loss=0.025742
+Epoch 8, Itrs 6500/30000, Loss=0.026987
+Model saved as checkpoints/latest_deeplabv3plus_resnet50_map_os16.pth
+validation...
+
+Overall Acc: 0.987656
+Mean Acc: 0.773052
+FreqW Acc: 0.977844
+Mean IoU: 0.722120
+
+Epoch 8, Itrs 6510/30000, Loss=0.024471
+Epoch 8, Itrs 6520/30000, Loss=0.023450
+Epoch 8, Itrs 6530/30000, Loss=0.025554
+Epoch 8, Itrs 6540/30000, Loss=0.024727
+Epoch 8, Itrs 6550/30000, Loss=0.026146
+Epoch 8, Itrs 6560/30000, Loss=0.027666
+Epoch 8, Itrs 6570/30000, Loss=0.027912
+Epoch 8, Itrs 6580/30000, Loss=0.023541
+Epoch 8, Itrs 6590/30000, Loss=0.026778
+Epoch 8, Itrs 6600/30000, Loss=0.026880
+Epoch 8, Itrs 6610/30000, Loss=0.027733
+Epoch 8, Itrs 6620/30000, Loss=0.021974
+Epoch 8, Itrs 6630/30000, Loss=0.027542
+Epoch 8, Itrs 6640/30000, Loss=0.025252
+Epoch 8, Itrs 6650/30000, Loss=0.026031
+Epoch 8, Itrs 6660/30000, Loss=0.023281
+Epoch 8, Itrs 6670/30000, Loss=0.027301
+Epoch 8, Itrs 6680/30000, Loss=0.028786
+Epoch 8, Itrs 6690/30000, Loss=0.024735
+Epoch 8, Itrs 6700/30000, Loss=0.025444
+Epoch 8, Itrs 6710/30000, Loss=0.023420
+Epoch 8, Itrs 6720/30000, Loss=0.024241
+Epoch 8, Itrs 6730/30000, Loss=0.022519
+Epoch 8, Itrs 6740/30000, Loss=0.025487
+Epoch 8, Itrs 6750/30000, Loss=0.027839
+Epoch 8, Itrs 6760/30000, Loss=0.024100
+Epoch 8, Itrs 6770/30000, Loss=0.023398
+Epoch 8, Itrs 6780/30000, Loss=0.030445
+Epoch 8, Itrs 6790/30000, Loss=0.025192
+Epoch 8, Itrs 6800/30000, Loss=0.025727
+Epoch 8, Itrs 6810/30000, Loss=0.028894
+Epoch 8, Itrs 6820/30000, Loss=0.024347
+Epoch 8, Itrs 6830/30000, Loss=0.022098
+Epoch 8, Itrs 6840/30000, Loss=0.027349
+Epoch 8, Itrs 6850/30000, Loss=0.027682
+Epoch 8, Itrs 6860/30000, Loss=0.025791
+Epoch 8, Itrs 6870/30000, Loss=0.024803
+Epoch 8, Itrs 6880/30000, Loss=0.026998
+Epoch 8, Itrs 6890/30000, Loss=0.024225
+Epoch 8, Itrs 6900/30000, Loss=0.025524
+Epoch 8, Itrs 6910/30000, Loss=0.024444
+Epoch 8, Itrs 6920/30000, Loss=0.024461
+Epoch 8, Itrs 6930/30000, Loss=0.024972
+Epoch 8, Itrs 6940/30000, Loss=0.025015
+Epoch 8, Itrs 6950/30000, Loss=0.019838
+Epoch 8, Itrs 6960/30000, Loss=0.026251
+Epoch 8, Itrs 6970/30000, Loss=0.024946
+Epoch 8, Itrs 6980/30000, Loss=0.026805
+Epoch 8, Itrs 6990/30000, Loss=0.025926
+Epoch 8, Itrs 7000/30000, Loss=0.026436
+Model saved as checkpoints/latest_deeplabv3plus_resnet50_map_os16.pth
+validation...
+
+Overall Acc: 0.987778
+Mean Acc: 0.791727
+FreqW Acc: 0.978337
+Mean IoU: 0.731565
+
+Epoch 8, Itrs 7010/30000, Loss=0.026178
+Epoch 8, Itrs 7020/30000, Loss=0.021474
+Epoch 8, Itrs 7030/30000, Loss=0.026128
+Epoch 8, Itrs 7040/30000, Loss=0.027882
+Epoch 8, Itrs 7050/30000, Loss=0.027117
+Epoch 8, Itrs 7060/30000, Loss=0.023440
+Epoch 8, Itrs 7070/30000, Loss=0.023445
+Epoch 8, Itrs 7080/30000, Loss=0.022695
+Epoch 8, Itrs 7090/30000, Loss=0.028467
+Epoch 8, Itrs 7100/30000, Loss=0.027918
+Epoch 8, Itrs 7110/30000, Loss=0.026296
+Epoch 8, Itrs 7120/30000, Loss=0.023930
+Epoch 8, Itrs 7130/30000, Loss=0.026539
+Epoch 8, Itrs 7140/30000, Loss=0.026551
+Epoch 8, Itrs 7150/30000, Loss=0.025371
+Epoch 8, Itrs 7160/30000, Loss=0.025273
+Epoch 8, Itrs 7170/30000, Loss=0.024041
+Epoch 8, Itrs 7180/30000, Loss=0.027561
+Epoch 8, Itrs 7190/30000, Loss=0.025650
+Epoch 8, Itrs 7200/30000, Loss=0.022221
+Epoch 8, Itrs 7210/30000, Loss=0.022606
+Epoch 8, Itrs 7220/30000, Loss=0.024220
+Epoch 8, Itrs 7230/30000, Loss=0.024984
+Epoch 8, Itrs 7240/30000, Loss=0.026235
+Epoch 8, Itrs 7250/30000, Loss=0.025856
+Epoch 8, Itrs 7260/30000, Loss=0.025132
+Epoch 8, Itrs 7270/30000, Loss=0.023784
+Epoch 8, Itrs 7280/30000, Loss=0.025353
+Epoch 8, Itrs 7290/30000, Loss=0.024118
+Epoch 8, Itrs 7300/30000, Loss=0.024533
+Epoch 8, Itrs 7310/30000, Loss=0.024785
+Epoch 8, Itrs 7320/30000, Loss=0.026295
+Epoch 8, Itrs 7330/30000, Loss=0.028179
+Epoch 8, Itrs 7340/30000, Loss=0.028354
+Epoch 9, Itrs 7350/30000, Loss=0.026743
+Epoch 9, Itrs 7360/30000, Loss=0.024417
+Epoch 9, Itrs 7370/30000, Loss=0.023474
+Epoch 9, Itrs 7380/30000, Loss=0.025788
+Epoch 9, Itrs 7390/30000, Loss=0.021797
+Epoch 9, Itrs 7400/30000, Loss=0.025510
+Epoch 9, Itrs 7410/30000, Loss=0.025150
+Epoch 9, Itrs 7420/30000, Loss=0.026701
+Epoch 9, Itrs 7430/30000, Loss=0.027068
+Epoch 9, Itrs 7440/30000, Loss=0.026429
+Epoch 9, Itrs 7450/30000, Loss=0.026453
+Epoch 9, Itrs 7460/30000, Loss=0.023509
+Epoch 9, Itrs 7470/30000, Loss=0.023113
+Epoch 9, Itrs 7480/30000, Loss=0.023978
+Epoch 9, Itrs 7490/30000, Loss=0.026914
+Epoch 9, Itrs 7500/30000, Loss=0.027433
+Model saved as checkpoints/latest_deeplabv3plus_resnet50_map_os16.pth
+validation...
+
+Overall Acc: 0.987835
+Mean Acc: 0.797921
+FreqW Acc: 0.978524
+Mean IoU: 0.735042
+
+Model saved as checkpoints/best_deeplabv3plus_resnet50_map_os16.pth
+Epoch 9, Itrs 7510/30000, Loss=0.023929
+Epoch 9, Itrs 7520/30000, Loss=0.023639
+Epoch 9, Itrs 7530/30000, Loss=0.025010
+Epoch 9, Itrs 7540/30000, Loss=0.026797
+Epoch 9, Itrs 7550/30000, Loss=0.022672
+Epoch 9, Itrs 7560/30000, Loss=0.024098
+Epoch 9, Itrs 7570/30000, Loss=0.028723
+Epoch 9, Itrs 7580/30000, Loss=0.025040
+Epoch 9, Itrs 7590/30000, Loss=0.022896
+Epoch 9, Itrs 7600/30000, Loss=0.022581
+Epoch 9, Itrs 7610/30000, Loss=0.025568
+Epoch 9, Itrs 7620/30000, Loss=0.027608
+Epoch 9, Itrs 7630/30000, Loss=0.024761
+Epoch 9, Itrs 7640/30000, Loss=0.026116
+Epoch 9, Itrs 7650/30000, Loss=0.026832
+Epoch 9, Itrs 7660/30000, Loss=0.024948
+Epoch 9, Itrs 7670/30000, Loss=0.024017
+Epoch 9, Itrs 7680/30000, Loss=0.025761
+Epoch 9, Itrs 7690/30000, Loss=0.022728
+Epoch 9, Itrs 7700/30000, Loss=0.026514
+Epoch 9, Itrs 7710/30000, Loss=0.027303
+Epoch 9, Itrs 7720/30000, Loss=0.025784
+Epoch 9, Itrs 7730/30000, Loss=0.022567
+Epoch 9, Itrs 7740/30000, Loss=0.023303
+Epoch 9, Itrs 7750/30000, Loss=0.023311
+Epoch 9, Itrs 7760/30000, Loss=0.030018
+Epoch 9, Itrs 7770/30000, Loss=0.024197
+Epoch 9, Itrs 7780/30000, Loss=0.024833
+Epoch 9, Itrs 7790/30000, Loss=0.024592
+Epoch 9, Itrs 7800/30000, Loss=0.026707
+Epoch 9, Itrs 7810/30000, Loss=0.024180
+Epoch 9, Itrs 7820/30000, Loss=0.023631
+Epoch 9, Itrs 7830/30000, Loss=0.024501
+Epoch 9, Itrs 7840/30000, Loss=0.021831
+Epoch 9, Itrs 7850/30000, Loss=0.024458
+Epoch 9, Itrs 7860/30000, Loss=0.027656
+Epoch 9, Itrs 7870/30000, Loss=0.028295
+Epoch 9, Itrs 7880/30000, Loss=0.028152
+Epoch 9, Itrs 7890/30000, Loss=0.021919
+Epoch 9, Itrs 7900/30000, Loss=0.026652
+Epoch 9, Itrs 7910/30000, Loss=0.026074
+Epoch 9, Itrs 7920/30000, Loss=0.027600
+Epoch 9, Itrs 7930/30000, Loss=0.023853
+Epoch 9, Itrs 7940/30000, Loss=0.023692
+Epoch 9, Itrs 7950/30000, Loss=0.022474
+Epoch 9, Itrs 7960/30000, Loss=0.026255
+Epoch 9, Itrs 7970/30000, Loss=0.024108
+Epoch 9, Itrs 7980/30000, Loss=0.024590
+Epoch 9, Itrs 7990/30000, Loss=0.025040
+Epoch 9, Itrs 8000/30000, Loss=0.027428
+Model saved as checkpoints/latest_deeplabv3plus_resnet50_map_os16.pth
+validation...
+
+Overall Acc: 0.987926
+Mean Acc: 0.796981
+FreqW Acc: 0.978659
+Mean IoU: 0.736781
+
+Model saved as checkpoints/best_deeplabv3plus_resnet50_map_os16.pth
+Epoch 9, Itrs 8010/30000, Loss=0.025429
+Epoch 9, Itrs 8020/30000, Loss=0.027033
+Epoch 9, Itrs 8030/30000, Loss=0.024542
+Epoch 9, Itrs 8040/30000, Loss=0.027627
+Epoch 9, Itrs 8050/30000, Loss=0.025689
+Epoch 9, Itrs 8060/30000, Loss=0.026319
+Epoch 9, Itrs 8070/30000, Loss=0.023970
+Epoch 9, Itrs 8080/30000, Loss=0.026656
+Epoch 9, Itrs 8090/30000, Loss=0.024897
+Epoch 9, Itrs 8100/30000, Loss=0.025041
+Epoch 9, Itrs 8110/30000, Loss=0.025742
+Epoch 9, Itrs 8120/30000, Loss=0.024481
+Epoch 9, Itrs 8130/30000, Loss=0.024204
+Epoch 9, Itrs 8140/30000, Loss=0.026076
+Epoch 9, Itrs 8150/30000, Loss=0.027148
+Epoch 9, Itrs 8160/30000, Loss=0.020547
+Epoch 9, Itrs 8170/30000, Loss=0.025154
+Epoch 9, Itrs 8180/30000, Loss=0.021475
+Epoch 9, Itrs 8190/30000, Loss=0.023804
+Epoch 9, Itrs 8200/30000, Loss=0.028370
+Epoch 9, Itrs 8210/30000, Loss=0.027823
+Epoch 9, Itrs 8220/30000, Loss=0.026125
+Epoch 9, Itrs 8230/30000, Loss=0.024372
+Epoch 9, Itrs 8240/30000, Loss=0.026196
+Epoch 9, Itrs 8250/30000, Loss=0.026668
+Epoch 9, Itrs 8260/30000, Loss=0.026485
+Epoch 10, Itrs 8270/30000, Loss=0.024081
+Epoch 10, Itrs 8280/30000, Loss=0.024349
+Epoch 10, Itrs 8290/30000, Loss=0.025273
+Epoch 10, Itrs 8300/30000, Loss=0.023918
+Epoch 10, Itrs 8310/30000, Loss=0.023641
+Epoch 10, Itrs 8320/30000, Loss=0.022603
+Epoch 10, Itrs 8330/30000, Loss=0.028474
+Epoch 10, Itrs 8340/30000, Loss=0.023747
+Epoch 10, Itrs 8350/30000, Loss=0.024139
+Epoch 10, Itrs 8360/30000, Loss=0.025516
+Epoch 10, Itrs 8370/30000, Loss=0.028249
+Epoch 10, Itrs 8380/30000, Loss=0.023893
+Epoch 10, Itrs 8390/30000, Loss=0.026470
+Epoch 10, Itrs 8400/30000, Loss=0.022401
+Epoch 10, Itrs 8410/30000, Loss=0.024854
+Epoch 10, Itrs 8420/30000, Loss=0.026959
+Epoch 10, Itrs 8430/30000, Loss=0.023635
+Epoch 10, Itrs 8440/30000, Loss=0.025499
+Epoch 10, Itrs 8450/30000, Loss=0.026403
+Epoch 10, Itrs 8460/30000, Loss=0.022703
+Epoch 10, Itrs 8470/30000, Loss=0.027618
+Epoch 10, Itrs 8480/30000, Loss=0.026836
+Epoch 10, Itrs 8490/30000, Loss=0.026108
+Epoch 10, Itrs 8500/30000, Loss=0.026031
+Model saved as checkpoints/latest_deeplabv3plus_resnet50_map_os16.pth
+validation...
+
+Overall Acc: 0.987983
+Mean Acc: 0.786364
+FreqW Acc: 0.978509
+Mean IoU: 0.732234
+
+Epoch 10, Itrs 8510/30000, Loss=0.022732
+Epoch 10, Itrs 8520/30000, Loss=0.024253
+Epoch 10, Itrs 8530/30000, Loss=0.025035
+Epoch 10, Itrs 8540/30000, Loss=0.026386
+Epoch 10, Itrs 8550/30000, Loss=0.026941
+Epoch 10, Itrs 8560/30000, Loss=0.024654
+Epoch 10, Itrs 8570/30000, Loss=0.023549
+Epoch 10, Itrs 8580/30000, Loss=0.024650
+Epoch 10, Itrs 8590/30000, Loss=0.027377
+Epoch 10, Itrs 8600/30000, Loss=0.022590
+Epoch 10, Itrs 8610/30000, Loss=0.023828
+Epoch 10, Itrs 8620/30000, Loss=0.028641
+Epoch 10, Itrs 8630/30000, Loss=0.023578
+Epoch 10, Itrs 8640/30000, Loss=0.027150
+Epoch 10, Itrs 8650/30000, Loss=0.023988
+Epoch 10, Itrs 8660/30000, Loss=0.023305
+Epoch 10, Itrs 8670/30000, Loss=0.023255
+Epoch 10, Itrs 8680/30000, Loss=0.024817
+Epoch 10, Itrs 8690/30000, Loss=0.026495
+Epoch 10, Itrs 8700/30000, Loss=0.024460
+Epoch 10, Itrs 8710/30000, Loss=0.026433
+Epoch 10, Itrs 8720/30000, Loss=0.025784
+Epoch 10, Itrs 8730/30000, Loss=0.023677
+Epoch 10, Itrs 8740/30000, Loss=0.024176
+Epoch 10, Itrs 8750/30000, Loss=0.025512
+Epoch 10, Itrs 8760/30000, Loss=0.029058
+Epoch 10, Itrs 8770/30000, Loss=0.022936
+Epoch 10, Itrs 8780/30000, Loss=0.024601
+Epoch 10, Itrs 8790/30000, Loss=0.024393
+Epoch 10, Itrs 8800/30000, Loss=0.024664
+Epoch 10, Itrs 8810/30000, Loss=0.024156
+Epoch 10, Itrs 8820/30000, Loss=0.027306
+Epoch 10, Itrs 8830/30000, Loss=0.028069
+Epoch 10, Itrs 8840/30000, Loss=0.021397
+Epoch 10, Itrs 8850/30000, Loss=0.025256
+Epoch 10, Itrs 8860/30000, Loss=0.023632
+Epoch 10, Itrs 8870/30000, Loss=0.021895
+Epoch 10, Itrs 8880/30000, Loss=0.026272
+Epoch 10, Itrs 8890/30000, Loss=0.024857
+Epoch 10, Itrs 8900/30000, Loss=0.026721
+Epoch 10, Itrs 8910/30000, Loss=0.025364
+Epoch 10, Itrs 8920/30000, Loss=0.025691
+Epoch 10, Itrs 8930/30000, Loss=0.027490
+Epoch 10, Itrs 8940/30000, Loss=0.027997
+Epoch 10, Itrs 8950/30000, Loss=0.024719
+Epoch 10, Itrs 8960/30000, Loss=0.023354
+Epoch 10, Itrs 8970/30000, Loss=0.023816
+Epoch 10, Itrs 8980/30000, Loss=0.023493
+Epoch 10, Itrs 8990/30000, Loss=0.024162
+Epoch 10, Itrs 9000/30000, Loss=0.023958
+Model saved as checkpoints/latest_deeplabv3plus_resnet50_map_os16.pth
+validation...
+
+Overall Acc: 0.988051
+Mean Acc: 0.789655
+FreqW Acc: 0.978639
+Mean IoU: 0.733969
+
+Epoch 10, Itrs 9010/30000, Loss=0.025207
+Epoch 10, Itrs 9020/30000, Loss=0.026097
+Epoch 10, Itrs 9030/30000, Loss=0.020091
+Epoch 10, Itrs 9040/30000, Loss=0.023595
+Epoch 10, Itrs 9050/30000, Loss=0.025012
+Epoch 10, Itrs 9060/30000, Loss=0.024975
+Epoch 10, Itrs 9070/30000, Loss=0.024089
+Epoch 10, Itrs 9080/30000, Loss=0.022934
+Epoch 10, Itrs 9090/30000, Loss=0.025471
+Epoch 10, Itrs 9100/30000, Loss=0.024829
+Epoch 10, Itrs 9110/30000, Loss=0.028376
+Epoch 10, Itrs 9120/30000, Loss=0.026013
+Epoch 10, Itrs 9130/30000, Loss=0.020579
+Epoch 10, Itrs 9140/30000, Loss=0.024953
+Epoch 10, Itrs 9150/30000, Loss=0.024826
+Epoch 10, Itrs 9160/30000, Loss=0.022163
+Epoch 10, Itrs 9170/30000, Loss=0.024593
+Epoch 10, Itrs 9180/30000, Loss=0.024469
+Epoch 11, Itrs 9190/30000, Loss=0.026392
+Epoch 11, Itrs 9200/30000, Loss=0.022424
+Epoch 11, Itrs 9210/30000, Loss=0.026343
+Epoch 11, Itrs 9220/30000, Loss=0.024540
+Epoch 11, Itrs 9230/30000, Loss=0.024060
+Epoch 11, Itrs 9240/30000, Loss=0.020076
+Epoch 11, Itrs 9250/30000, Loss=0.022194
+Epoch 11, Itrs 9260/30000, Loss=0.023207
+Epoch 11, Itrs 9270/30000, Loss=0.023567
+Epoch 11, Itrs 9280/30000, Loss=0.021333
+Epoch 11, Itrs 9290/30000, Loss=0.024233
+Epoch 11, Itrs 9300/30000, Loss=0.024798
+Epoch 11, Itrs 9310/30000, Loss=0.024125
+Epoch 11, Itrs 9320/30000, Loss=0.026327
+Epoch 11, Itrs 9330/30000, Loss=0.021709
+Epoch 11, Itrs 9340/30000, Loss=0.023267
+Epoch 11, Itrs 9350/30000, Loss=0.023432
+Epoch 11, Itrs 9360/30000, Loss=0.024365
+Epoch 11, Itrs 9370/30000, Loss=0.022840
+Epoch 11, Itrs 9380/30000, Loss=0.030212
+Epoch 11, Itrs 9390/30000, Loss=0.024369
+Epoch 11, Itrs 9400/30000, Loss=0.027324
+Epoch 11, Itrs 9410/30000, Loss=0.023326
+Epoch 11, Itrs 9420/30000, Loss=0.024860
+Epoch 11, Itrs 9430/30000, Loss=0.024749
+Epoch 11, Itrs 9440/30000, Loss=0.024675
+Epoch 11, Itrs 9450/30000, Loss=0.027053
+Epoch 11, Itrs 9460/30000, Loss=0.023805
+Epoch 11, Itrs 9470/30000, Loss=0.026376
+Epoch 11, Itrs 9480/30000, Loss=0.024722
+Epoch 11, Itrs 9490/30000, Loss=0.024214
+Epoch 11, Itrs 9500/30000, Loss=0.023935
+Model saved as checkpoints/latest_deeplabv3plus_resnet50_map_os16.pth
+validation...
+
+Overall Acc: 0.988123
+Mean Acc: 0.798602
+FreqW Acc: 0.978901
+Mean IoU: 0.738895
+
+Model saved as checkpoints/best_deeplabv3plus_resnet50_map_os16.pth
+Epoch 11, Itrs 9510/30000, Loss=0.026141
+Epoch 11, Itrs 9520/30000, Loss=0.024829
+Epoch 11, Itrs 9530/30000, Loss=0.027651
+Epoch 11, Itrs 9540/30000, Loss=0.021922
+Epoch 11, Itrs 9550/30000, Loss=0.022970
+Epoch 11, Itrs 9560/30000, Loss=0.023857
+Epoch 11, Itrs 9570/30000, Loss=0.025060
+Epoch 11, Itrs 9580/30000, Loss=0.026613
+Epoch 11, Itrs 9590/30000, Loss=0.023159
+Epoch 11, Itrs 9600/30000, Loss=0.022884
+Epoch 11, Itrs 9610/30000, Loss=0.024856
+Epoch 11, Itrs 9620/30000, Loss=0.027712
+Epoch 11, Itrs 9630/30000, Loss=0.025740
+Epoch 11, Itrs 9640/30000, Loss=0.023577
+Epoch 11, Itrs 9650/30000, Loss=0.024703
+Epoch 11, Itrs 9660/30000, Loss=0.026269
+Epoch 11, Itrs 9670/30000, Loss=0.025614
+Epoch 11, Itrs 9680/30000, Loss=0.029377
+Epoch 11, Itrs 9690/30000, Loss=0.021191
+Epoch 11, Itrs 9700/30000, Loss=0.022116
+Epoch 11, Itrs 9710/30000, Loss=0.022360
+Epoch 11, Itrs 9720/30000, Loss=0.023252
+Epoch 11, Itrs 9730/30000, Loss=0.027276
+Epoch 11, Itrs 9740/30000, Loss=0.023586
+Epoch 11, Itrs 9750/30000, Loss=0.026501
+Epoch 11, Itrs 9760/30000, Loss=0.022916
+Epoch 11, Itrs 9770/30000, Loss=0.023770
+Epoch 11, Itrs 9780/30000, Loss=0.024133
+Epoch 11, Itrs 9790/30000, Loss=0.027772
+Epoch 11, Itrs 9800/30000, Loss=0.024859
+Epoch 11, Itrs 9810/30000, Loss=0.025266
+Epoch 11, Itrs 9820/30000, Loss=0.027997
+Epoch 11, Itrs 9830/30000, Loss=0.025363
+Epoch 11, Itrs 9840/30000, Loss=0.024495
+Epoch 11, Itrs 9850/30000, Loss=0.026501
+Epoch 11, Itrs 9860/30000, Loss=0.024966
+Epoch 11, Itrs 9870/30000, Loss=0.024290
+Epoch 11, Itrs 9880/30000, Loss=0.025533
+Epoch 11, Itrs 9890/30000, Loss=0.025833
+Epoch 11, Itrs 9900/30000, Loss=0.024533
+Epoch 11, Itrs 9910/30000, Loss=0.025054
+Epoch 11, Itrs 9920/30000, Loss=0.022463
+Epoch 11, Itrs 9930/30000, Loss=0.023662
+Epoch 11, Itrs 9940/30000, Loss=0.023155
+Epoch 11, Itrs 9950/30000, Loss=0.019641
+Epoch 11, Itrs 9960/30000, Loss=0.028098
+Epoch 11, Itrs 9970/30000, Loss=0.027883
+Epoch 11, Itrs 9980/30000, Loss=0.025290
+Epoch 11, Itrs 9990/30000, Loss=0.023588
+Epoch 11, Itrs 10000/30000, Loss=0.025015
+Model saved as checkpoints/latest_deeplabv3plus_resnet50_map_os16.pth
+validation...
+
+Overall Acc: 0.988172
+Mean Acc: 0.794944
+FreqW Acc: 0.978866
+Mean IoU: 0.737078
+
+Epoch 11, Itrs 10010/30000, Loss=0.026717
+Epoch 11, Itrs 10020/30000, Loss=0.025161
+Epoch 11, Itrs 10030/30000, Loss=0.025809
+Epoch 11, Itrs 10040/30000, Loss=0.026418
+Epoch 11, Itrs 10050/30000, Loss=0.021790
+Epoch 11, Itrs 10060/30000, Loss=0.022517
+Epoch 11, Itrs 10070/30000, Loss=0.021624
+Epoch 11, Itrs 10080/30000, Loss=0.026122
+Epoch 11, Itrs 10090/30000, Loss=0.025590
+Epoch 12, Itrs 10100/30000, Loss=0.023766
+Epoch 12, Itrs 10110/30000, Loss=0.023158
+Epoch 12, Itrs 10120/30000, Loss=0.023673
+Epoch 12, Itrs 10130/30000, Loss=0.022930
+Epoch 12, Itrs 10140/30000, Loss=0.023948
+Epoch 12, Itrs 10150/30000, Loss=0.025684
+Epoch 12, Itrs 10160/30000, Loss=0.026509
+Epoch 12, Itrs 10170/30000, Loss=0.022285
+Epoch 12, Itrs 10180/30000, Loss=0.022809
+Epoch 12, Itrs 10190/30000, Loss=0.021791
+Epoch 12, Itrs 10200/30000, Loss=0.025802
+Epoch 12, Itrs 10210/30000, Loss=0.023318
+Epoch 12, Itrs 10220/30000, Loss=0.022792
+Epoch 12, Itrs 10230/30000, Loss=0.025124
+Epoch 12, Itrs 10240/30000, Loss=0.029204
+Epoch 12, Itrs 10250/30000, Loss=0.028748
+Epoch 12, Itrs 10260/30000, Loss=0.025510
+Epoch 12, Itrs 10270/30000, Loss=0.025113
+Epoch 12, Itrs 10280/30000, Loss=0.026430
+Epoch 12, Itrs 10290/30000, Loss=0.023753
+Epoch 12, Itrs 10300/30000, Loss=0.023453
+Epoch 12, Itrs 10310/30000, Loss=0.023295
+Epoch 12, Itrs 10320/30000, Loss=0.022706
+Epoch 12, Itrs 10330/30000, Loss=0.023069
+Epoch 12, Itrs 10340/30000, Loss=0.023440
+Epoch 12, Itrs 10350/30000, Loss=0.023404
+Epoch 12, Itrs 10360/30000, Loss=0.023300
+Epoch 12, Itrs 10370/30000, Loss=0.027844
+Epoch 12, Itrs 10380/30000, Loss=0.023480
+Epoch 12, Itrs 10390/30000, Loss=0.019408
+Epoch 12, Itrs 10400/30000, Loss=0.024794
+Epoch 12, Itrs 10410/30000, Loss=0.029409
+Epoch 12, Itrs 10420/30000, Loss=0.026594
+Epoch 12, Itrs 10430/30000, Loss=0.021115
+Epoch 12, Itrs 10440/30000, Loss=0.026803
+Epoch 12, Itrs 10450/30000, Loss=0.025096
+Epoch 12, Itrs 10460/30000, Loss=0.024369
+Epoch 12, Itrs 10470/30000, Loss=0.025270
+Epoch 12, Itrs 10480/30000, Loss=0.022640
+Epoch 12, Itrs 10490/30000, Loss=0.022923
+Epoch 12, Itrs 10500/30000, Loss=0.023940
+Model saved as checkpoints/latest_deeplabv3plus_resnet50_map_os16.pth
+validation...
+
+Overall Acc: 0.988251
+Mean Acc: 0.800529
+FreqW Acc: 0.979111
+Mean IoU: 0.741584
+
+Model saved as checkpoints/best_deeplabv3plus_resnet50_map_os16.pth
+Epoch 12, Itrs 10510/30000, Loss=0.025358
+Epoch 12, Itrs 10520/30000, Loss=0.025131
+Epoch 12, Itrs 10530/30000, Loss=0.021625
+Epoch 12, Itrs 10540/30000, Loss=0.025470
+Epoch 12, Itrs 10550/30000, Loss=0.025052
+Epoch 12, Itrs 10560/30000, Loss=0.021960
+Epoch 12, Itrs 10570/30000, Loss=0.028088
+Epoch 12, Itrs 10580/30000, Loss=0.026310
+Epoch 12, Itrs 10590/30000, Loss=0.026189
+Epoch 12, Itrs 10600/30000, Loss=0.023305
+Epoch 12, Itrs 10610/30000, Loss=0.024755
+Epoch 12, Itrs 10620/30000, Loss=0.022127
+Epoch 12, Itrs 10630/30000, Loss=0.023052
+Epoch 12, Itrs 10640/30000, Loss=0.028149
+Epoch 12, Itrs 10650/30000, Loss=0.022239
+Epoch 12, Itrs 10660/30000, Loss=0.026307
+Epoch 12, Itrs 10670/30000, Loss=0.022810
+Epoch 12, Itrs 10680/30000, Loss=0.024304
+Epoch 12, Itrs 10690/30000, Loss=0.024134
+Epoch 12, Itrs 10700/30000, Loss=0.024148
+Epoch 12, Itrs 10710/30000, Loss=0.026121
+Epoch 12, Itrs 10720/30000, Loss=0.026412
+Epoch 12, Itrs 10730/30000, Loss=0.023769
+Epoch 12, Itrs 10740/30000, Loss=0.025669
+Epoch 12, Itrs 10750/30000, Loss=0.022556
+Epoch 12, Itrs 10760/30000, Loss=0.024501
+Epoch 12, Itrs 10770/30000, Loss=0.022371
+Epoch 12, Itrs 10780/30000, Loss=0.023979
+Epoch 12, Itrs 10790/30000, Loss=0.025030
+Epoch 12, Itrs 10800/30000, Loss=0.025586
+Epoch 12, Itrs 10810/30000, Loss=0.025775
+Epoch 12, Itrs 10820/30000, Loss=0.026488
+Epoch 12, Itrs 10830/30000, Loss=0.024473
+Epoch 12, Itrs 10840/30000, Loss=0.023499
+Epoch 12, Itrs 10850/30000, Loss=0.022530
+Epoch 12, Itrs 10860/30000, Loss=0.021921
+Epoch 12, Itrs 10870/30000, Loss=0.026604
+Epoch 12, Itrs 10880/30000, Loss=0.025429
+Epoch 12, Itrs 10890/30000, Loss=0.026060
+Epoch 12, Itrs 10900/30000, Loss=0.019688
+Epoch 12, Itrs 10910/30000, Loss=0.024798
+Epoch 12, Itrs 10920/30000, Loss=0.024036
+Epoch 12, Itrs 10930/30000, Loss=0.023208
+Epoch 12, Itrs 10940/30000, Loss=0.025394
+Epoch 12, Itrs 10950/30000, Loss=0.026285
+Epoch 12, Itrs 10960/30000, Loss=0.021305
+Epoch 12, Itrs 10970/30000, Loss=0.024347
+Epoch 12, Itrs 10980/30000, Loss=0.028617
+Epoch 12, Itrs 10990/30000, Loss=0.025644
+Epoch 12, Itrs 11000/30000, Loss=0.021358
+Model saved as checkpoints/latest_deeplabv3plus_resnet50_map_os16.pth
+validation...
+
+Overall Acc: 0.988296
+Mean Acc: 0.802553
+FreqW Acc: 0.979179
+Mean IoU: 0.742201
+
+Model saved as checkpoints/best_deeplabv3plus_resnet50_map_os16.pth
+Epoch 12, Itrs 11010/30000, Loss=0.023998
+Epoch 13, Itrs 11020/30000, Loss=0.022410
+Epoch 13, Itrs 11030/30000, Loss=0.023342
+Epoch 13, Itrs 11040/30000, Loss=0.023581
+Epoch 13, Itrs 11050/30000, Loss=0.023871
+Epoch 13, Itrs 11060/30000, Loss=0.022048
+Epoch 13, Itrs 11070/30000, Loss=0.026390
+Epoch 13, Itrs 11080/30000, Loss=0.028434
+Epoch 13, Itrs 11090/30000, Loss=0.026865
+Epoch 13, Itrs 11100/30000, Loss=0.026720
+Epoch 13, Itrs 11110/30000, Loss=0.023878
+Epoch 13, Itrs 11120/30000, Loss=0.023358
+Epoch 13, Itrs 11130/30000, Loss=0.022447
+Epoch 13, Itrs 11140/30000, Loss=0.025617
+Epoch 13, Itrs 11150/30000, Loss=0.022607
+Epoch 13, Itrs 11160/30000, Loss=0.024696
+Epoch 13, Itrs 11170/30000, Loss=0.022290
+Epoch 13, Itrs 11180/30000, Loss=0.026104
+Epoch 13, Itrs 11190/30000, Loss=0.021972
+Epoch 13, Itrs 11200/30000, Loss=0.026179
+Epoch 13, Itrs 11210/30000, Loss=0.025987
+Epoch 13, Itrs 11220/30000, Loss=0.022402
+Epoch 13, Itrs 11230/30000, Loss=0.026758
+Epoch 13, Itrs 11240/30000, Loss=0.021884
+Epoch 13, Itrs 11250/30000, Loss=0.024904
+Epoch 13, Itrs 11260/30000, Loss=0.023034
+Epoch 13, Itrs 11270/30000, Loss=0.029870
+Epoch 13, Itrs 11280/30000, Loss=0.021660
+Epoch 13, Itrs 11290/30000, Loss=0.024131
+Epoch 13, Itrs 11300/30000, Loss=0.023099
+Epoch 13, Itrs 11310/30000, Loss=0.020542
+Epoch 13, Itrs 11320/30000, Loss=0.024825
+Epoch 13, Itrs 11330/30000, Loss=0.022458
+Epoch 13, Itrs 11340/30000, Loss=0.028286
+Epoch 13, Itrs 11350/30000, Loss=0.024387
+Epoch 13, Itrs 11360/30000, Loss=0.022393
+Epoch 13, Itrs 11370/30000, Loss=0.023986
+Epoch 13, Itrs 11380/30000, Loss=0.023547
+Epoch 13, Itrs 11390/30000, Loss=0.025238
+Epoch 13, Itrs 11400/30000, Loss=0.024556
+Epoch 13, Itrs 11410/30000, Loss=0.023952
+Epoch 13, Itrs 11420/30000, Loss=0.023398
+Epoch 13, Itrs 11430/30000, Loss=0.023552
+Epoch 13, Itrs 11440/30000, Loss=0.023944
+Epoch 13, Itrs 11450/30000, Loss=0.026093
+Epoch 13, Itrs 11460/30000, Loss=0.024932
+Epoch 13, Itrs 11470/30000, Loss=0.022809
+Epoch 13, Itrs 11480/30000, Loss=0.024277
+Epoch 13, Itrs 11490/30000, Loss=0.023658
+Epoch 13, Itrs 11500/30000, Loss=0.021238
+Model saved as checkpoints/latest_deeplabv3plus_resnet50_map_os16.pth
+validation...
+
+Overall Acc: 0.988314
+Mean Acc: 0.792258
+FreqW Acc: 0.979017
+Mean IoU: 0.738289
+
+Epoch 13, Itrs 11510/30000, Loss=0.023358
+Epoch 13, Itrs 11520/30000, Loss=0.025721
+Epoch 13, Itrs 11530/30000, Loss=0.024627
+Epoch 13, Itrs 11540/30000, Loss=0.025716
+Epoch 13, Itrs 11550/30000, Loss=0.024025
+Epoch 13, Itrs 11560/30000, Loss=0.027134
+Epoch 13, Itrs 11570/30000, Loss=0.024785
+Epoch 13, Itrs 11580/30000, Loss=0.023432
+Epoch 13, Itrs 11590/30000, Loss=0.023298
+Epoch 13, Itrs 11600/30000, Loss=0.024152
+Epoch 13, Itrs 11610/30000, Loss=0.022267
+Epoch 13, Itrs 11620/30000, Loss=0.025334
+Epoch 13, Itrs 11630/30000, Loss=0.025082
+Epoch 13, Itrs 11640/30000, Loss=0.022954
+Epoch 13, Itrs 11650/30000, Loss=0.025715
+Epoch 13, Itrs 11660/30000, Loss=0.023862
+Epoch 13, Itrs 11670/30000, Loss=0.023961
+Epoch 13, Itrs 11680/30000, Loss=0.025943
+Epoch 13, Itrs 11690/30000, Loss=0.022332
+Epoch 13, Itrs 11700/30000, Loss=0.021848
+Epoch 13, Itrs 11710/30000, Loss=0.024675
+Epoch 13, Itrs 11720/30000, Loss=0.022364
+Epoch 13, Itrs 11730/30000, Loss=0.024850
+Epoch 13, Itrs 11740/30000, Loss=0.022989
+Epoch 13, Itrs 11750/30000, Loss=0.026150
+Epoch 13, Itrs 11760/30000, Loss=0.020982
+Epoch 13, Itrs 11770/30000, Loss=0.023757
+Epoch 13, Itrs 11780/30000, Loss=0.025866
+Epoch 13, Itrs 11790/30000, Loss=0.022436
+Epoch 13, Itrs 11800/30000, Loss=0.022847
+Epoch 13, Itrs 11810/30000, Loss=0.022332
+Epoch 13, Itrs 11820/30000, Loss=0.025820
+Epoch 13, Itrs 11830/30000, Loss=0.023617
+Epoch 13, Itrs 11840/30000, Loss=0.024640
+Epoch 13, Itrs 11850/30000, Loss=0.026443
+Epoch 13, Itrs 11860/30000, Loss=0.023409
+Epoch 13, Itrs 11870/30000, Loss=0.026080
+Epoch 13, Itrs 11880/30000, Loss=0.024120
+Epoch 13, Itrs 11890/30000, Loss=0.024601
+Epoch 13, Itrs 11900/30000, Loss=0.022856
+Epoch 13, Itrs 11910/30000, Loss=0.024693
+Epoch 13, Itrs 11920/30000, Loss=0.025282
+Epoch 13, Itrs 11930/30000, Loss=0.024142
+Epoch 14, Itrs 11940/30000, Loss=0.024744
+Epoch 14, Itrs 11950/30000, Loss=0.022250
+Epoch 14, Itrs 11960/30000, Loss=0.021096
+Epoch 14, Itrs 11970/30000, Loss=0.022773
+Epoch 14, Itrs 11980/30000, Loss=0.022574
+Epoch 14, Itrs 11990/30000, Loss=0.021031
+Epoch 14, Itrs 12000/30000, Loss=0.023641
+Model saved as checkpoints/latest_deeplabv3plus_resnet50_map_os16.pth
+validation...
+
+Overall Acc: 0.988391
+Mean Acc: 0.802116
+FreqW Acc: 0.979293
+Mean IoU: 0.743247
+
+Model saved as checkpoints/best_deeplabv3plus_resnet50_map_os16.pth
+Epoch 14, Itrs 12010/30000, Loss=0.025496
+Epoch 14, Itrs 12020/30000, Loss=0.026219
+Epoch 14, Itrs 12030/30000, Loss=0.023129
+Epoch 14, Itrs 12040/30000, Loss=0.026580
+Epoch 14, Itrs 12050/30000, Loss=0.022284
+Epoch 14, Itrs 12060/30000, Loss=0.019539
+Epoch 14, Itrs 12070/30000, Loss=0.027279
+Epoch 14, Itrs 12080/30000, Loss=0.023140
+Epoch 14, Itrs 12090/30000, Loss=0.024834
+Epoch 14, Itrs 12100/30000, Loss=0.027562
+Epoch 14, Itrs 12110/30000, Loss=0.023931
+Epoch 14, Itrs 12120/30000, Loss=0.022703
+Epoch 14, Itrs 12130/30000, Loss=0.024799
+Epoch 14, Itrs 12140/30000, Loss=0.028218
+Epoch 14, Itrs 12150/30000, Loss=0.024874
+Epoch 14, Itrs 12160/30000, Loss=0.025180
+Epoch 14, Itrs 12170/30000, Loss=0.026906
+Epoch 14, Itrs 12180/30000, Loss=0.023246
+Epoch 14, Itrs 12190/30000, Loss=0.024700
+Epoch 14, Itrs 12200/30000, Loss=0.025245
+Epoch 14, Itrs 12210/30000, Loss=0.026277
+Epoch 14, Itrs 12220/30000, Loss=0.027364
+Epoch 14, Itrs 12230/30000, Loss=0.024608
+Epoch 14, Itrs 12240/30000, Loss=0.024801
+Epoch 14, Itrs 12250/30000, Loss=0.020931
+Epoch 14, Itrs 12260/30000, Loss=0.024925
+Epoch 14, Itrs 12270/30000, Loss=0.027671
+Epoch 14, Itrs 12280/30000, Loss=0.021789
+Epoch 14, Itrs 12290/30000, Loss=0.025621
+Epoch 14, Itrs 12300/30000, Loss=0.023460
+Epoch 14, Itrs 12310/30000, Loss=0.027228
+Epoch 14, Itrs 12320/30000, Loss=0.022145
+Epoch 14, Itrs 12330/30000, Loss=0.022551
+Epoch 14, Itrs 12340/30000, Loss=0.022457
+Epoch 14, Itrs 12350/30000, Loss=0.023026
+Epoch 14, Itrs 12360/30000, Loss=0.023184
+Epoch 14, Itrs 12370/30000, Loss=0.023213
+Epoch 14, Itrs 12380/30000, Loss=0.024422
+Epoch 14, Itrs 12390/30000, Loss=0.024543
+Epoch 14, Itrs 12400/30000, Loss=0.022099
+Epoch 14, Itrs 12410/30000, Loss=0.022140
+Epoch 14, Itrs 12420/30000, Loss=0.026419
+Epoch 14, Itrs 12430/30000, Loss=0.021661
+Epoch 14, Itrs 12440/30000, Loss=0.023692
+Epoch 14, Itrs 12450/30000, Loss=0.023557
+Epoch 14, Itrs 12460/30000, Loss=0.023294
+Epoch 14, Itrs 12470/30000, Loss=0.024040
+Epoch 14, Itrs 12480/30000, Loss=0.026482
+Epoch 14, Itrs 12490/30000, Loss=0.022532
+Epoch 14, Itrs 12500/30000, Loss=0.025309
+Model saved as checkpoints/latest_deeplabv3plus_resnet50_map_os16.pth
+validation...
+
+Overall Acc: 0.988433
+Mean Acc: 0.805419
+FreqW Acc: 0.979408
+Mean IoU: 0.745176
+
+Model saved as checkpoints/best_deeplabv3plus_resnet50_map_os16.pth
+Epoch 14, Itrs 12510/30000, Loss=0.024924
+Epoch 14, Itrs 12520/30000, Loss=0.024272
+Epoch 14, Itrs 12530/30000, Loss=0.023777
+Epoch 14, Itrs 12540/30000, Loss=0.025456
+Epoch 14, Itrs 12550/30000, Loss=0.024177
+Epoch 14, Itrs 12560/30000, Loss=0.025228
+Epoch 14, Itrs 12570/30000, Loss=0.025585
+Epoch 14, Itrs 12580/30000, Loss=0.019563
+Epoch 14, Itrs 12590/30000, Loss=0.024742
+Epoch 14, Itrs 12600/30000, Loss=0.027565
+Epoch 14, Itrs 12610/30000, Loss=0.023766
+Epoch 14, Itrs 12620/30000, Loss=0.020103
+Epoch 14, Itrs 12630/30000, Loss=0.023959
+Epoch 14, Itrs 12640/30000, Loss=0.024831
+Epoch 14, Itrs 12650/30000, Loss=0.021412
+Epoch 14, Itrs 12660/30000, Loss=0.024672
+Epoch 14, Itrs 12670/30000, Loss=0.022146
+Epoch 14, Itrs 12680/30000, Loss=0.026429
+Epoch 14, Itrs 12690/30000, Loss=0.021116
+Epoch 14, Itrs 12700/30000, Loss=0.023188
+Epoch 14, Itrs 12710/30000, Loss=0.022037
+Epoch 14, Itrs 12720/30000, Loss=0.024642
+Epoch 14, Itrs 12730/30000, Loss=0.025827
+Epoch 14, Itrs 12740/30000, Loss=0.023665
+Epoch 14, Itrs 12750/30000, Loss=0.023770
+Epoch 14, Itrs 12760/30000, Loss=0.023093
+Epoch 14, Itrs 12770/30000, Loss=0.025576
+Epoch 14, Itrs 12780/30000, Loss=0.022992
+Epoch 14, Itrs 12790/30000, Loss=0.023917
+Epoch 14, Itrs 12800/30000, Loss=0.022467
+Epoch 14, Itrs 12810/30000, Loss=0.024636
+Epoch 14, Itrs 12820/30000, Loss=0.022971
+Epoch 14, Itrs 12830/30000, Loss=0.023908
+Epoch 14, Itrs 12840/30000, Loss=0.022814
+Epoch 14, Itrs 12850/30000, Loss=0.024598
+Epoch 15, Itrs 12860/30000, Loss=0.022345
+Epoch 15, Itrs 12870/30000, Loss=0.024547
+Epoch 15, Itrs 12880/30000, Loss=0.024464
+Epoch 15, Itrs 12890/30000, Loss=0.024040
+Epoch 15, Itrs 12900/30000, Loss=0.023905
+Epoch 15, Itrs 12910/30000, Loss=0.024247
+Epoch 15, Itrs 12920/30000, Loss=0.023151
+Epoch 15, Itrs 12930/30000, Loss=0.021296
+Epoch 15, Itrs 12940/30000, Loss=0.022202
+Epoch 15, Itrs 12950/30000, Loss=0.021974
+Epoch 15, Itrs 12960/30000, Loss=0.022881
+Epoch 15, Itrs 12970/30000, Loss=0.021006
+Epoch 15, Itrs 12980/30000, Loss=0.025326
+Epoch 15, Itrs 12990/30000, Loss=0.024961
+Epoch 15, Itrs 13000/30000, Loss=0.022242
+Model saved as checkpoints/latest_deeplabv3plus_resnet50_map_os16.pth
+validation...
+
+Overall Acc: 0.988474
+Mean Acc: 0.805900
+FreqW Acc: 0.979463
+Mean IoU: 0.745683
+
+Model saved as checkpoints/best_deeplabv3plus_resnet50_map_os16.pth
+Epoch 15, Itrs 13010/30000, Loss=0.025830
+Epoch 15, Itrs 13020/30000, Loss=0.023697
+Epoch 15, Itrs 13030/30000, Loss=0.021797
+Epoch 15, Itrs 13040/30000, Loss=0.025515
+Epoch 15, Itrs 13050/30000, Loss=0.022324
+Epoch 15, Itrs 13060/30000, Loss=0.023157
+Epoch 15, Itrs 13070/30000, Loss=0.026307
+Epoch 15, Itrs 13080/30000, Loss=0.023851
+Epoch 15, Itrs 13090/30000, Loss=0.026673
+Epoch 15, Itrs 13100/30000, Loss=0.021491
+Epoch 15, Itrs 13110/30000, Loss=0.024603
+Epoch 15, Itrs 13120/30000, Loss=0.023240
+Epoch 15, Itrs 13130/30000, Loss=0.024985
+Epoch 15, Itrs 13140/30000, Loss=0.024448
+Epoch 15, Itrs 13150/30000, Loss=0.023978
+Epoch 15, Itrs 13160/30000, Loss=0.022855
+Epoch 15, Itrs 13170/30000, Loss=0.021300
+Epoch 15, Itrs 13180/30000, Loss=0.026194
+Epoch 15, Itrs 13190/30000, Loss=0.023836
+Epoch 15, Itrs 13200/30000, Loss=0.024284
+Epoch 15, Itrs 13210/30000, Loss=0.023444
+Epoch 15, Itrs 13220/30000, Loss=0.022333
+Epoch 15, Itrs 13230/30000, Loss=0.023074
+Epoch 15, Itrs 13240/30000, Loss=0.023814
+Epoch 15, Itrs 13250/30000, Loss=0.020698
+Epoch 15, Itrs 13260/30000, Loss=0.027456
+Epoch 15, Itrs 13270/30000, Loss=0.023057
+Epoch 15, Itrs 13280/30000, Loss=0.027333
+Epoch 15, Itrs 13290/30000, Loss=0.023363
+Epoch 15, Itrs 13300/30000, Loss=0.025491
+Epoch 15, Itrs 13310/30000, Loss=0.028791
+Epoch 15, Itrs 13320/30000, Loss=0.024905
+Epoch 15, Itrs 13330/30000, Loss=0.022033
+Epoch 15, Itrs 13340/30000, Loss=0.023670
+Epoch 15, Itrs 13350/30000, Loss=0.023834
+Epoch 15, Itrs 13360/30000, Loss=0.026916
+Epoch 15, Itrs 13370/30000, Loss=0.022954
+Epoch 15, Itrs 13380/30000, Loss=0.024172
+Epoch 15, Itrs 13390/30000, Loss=0.022287
+Epoch 15, Itrs 13400/30000, Loss=0.023774
+Epoch 15, Itrs 13410/30000, Loss=0.027227
+Epoch 15, Itrs 13420/30000, Loss=0.025515
+Epoch 15, Itrs 13430/30000, Loss=0.024427
+Epoch 15, Itrs 13440/30000, Loss=0.020861
+Epoch 15, Itrs 13450/30000, Loss=0.025498
+Epoch 15, Itrs 13460/30000, Loss=0.025099
+Epoch 15, Itrs 13470/30000, Loss=0.022668
+Epoch 15, Itrs 13480/30000, Loss=0.022578
+Epoch 15, Itrs 13490/30000, Loss=0.022203
+Epoch 15, Itrs 13500/30000, Loss=0.021436
+Model saved as checkpoints/latest_deeplabv3plus_resnet50_map_os16.pth
+validation...
+
+Overall Acc: 0.988463
+Mean Acc: 0.794139
+FreqW Acc: 0.979259
+Mean IoU: 0.741356
+
+Epoch 15, Itrs 13510/30000, Loss=0.026227
+Epoch 15, Itrs 13520/30000, Loss=0.024445
+Epoch 15, Itrs 13530/30000, Loss=0.023042
+Epoch 15, Itrs 13540/30000, Loss=0.022759
+Epoch 15, Itrs 13550/30000, Loss=0.021757
+Epoch 15, Itrs 13560/30000, Loss=0.023614
+Epoch 15, Itrs 13570/30000, Loss=0.023156
+Epoch 15, Itrs 13580/30000, Loss=0.025431
+Epoch 15, Itrs 13590/30000, Loss=0.021313
+Epoch 15, Itrs 13600/30000, Loss=0.023566
+Epoch 15, Itrs 13610/30000, Loss=0.022797
+Epoch 15, Itrs 13620/30000, Loss=0.025392
+Epoch 15, Itrs 13630/30000, Loss=0.024636
+Epoch 15, Itrs 13640/30000, Loss=0.024693
+Epoch 15, Itrs 13650/30000, Loss=0.022663
+Epoch 15, Itrs 13660/30000, Loss=0.022217
+Epoch 15, Itrs 13670/30000, Loss=0.021542
+Epoch 15, Itrs 13680/30000, Loss=0.021105
+Epoch 15, Itrs 13690/30000, Loss=0.025229
+Epoch 15, Itrs 13700/30000, Loss=0.023926
+Epoch 15, Itrs 13710/30000, Loss=0.023035
+Epoch 15, Itrs 13720/30000, Loss=0.026067
+Epoch 15, Itrs 13730/30000, Loss=0.023543
+Epoch 15, Itrs 13740/30000, Loss=0.024432
+Epoch 15, Itrs 13750/30000, Loss=0.027529
+Epoch 15, Itrs 13760/30000, Loss=0.024582
+Epoch 15, Itrs 13770/30000, Loss=0.023507
+Epoch 16, Itrs 13780/30000, Loss=0.021204
+Epoch 16, Itrs 13790/30000, Loss=0.022217
+Epoch 16, Itrs 13800/30000, Loss=0.025602
+Epoch 16, Itrs 13810/30000, Loss=0.023049
+Epoch 16, Itrs 13820/30000, Loss=0.022080
+Epoch 16, Itrs 13830/30000, Loss=0.022936
+Epoch 16, Itrs 13840/30000, Loss=0.021682
+Epoch 16, Itrs 13850/30000, Loss=0.023724
+Epoch 16, Itrs 13860/30000, Loss=0.026601
+Epoch 16, Itrs 13870/30000, Loss=0.023035
+Epoch 16, Itrs 13880/30000, Loss=0.022299
+Epoch 16, Itrs 13890/30000, Loss=0.023772
+Epoch 16, Itrs 13900/30000, Loss=0.023963
+Epoch 16, Itrs 13910/30000, Loss=0.023775
+Epoch 16, Itrs 13920/30000, Loss=0.022274
+Epoch 16, Itrs 13930/30000, Loss=0.025786
+Epoch 16, Itrs 13940/30000, Loss=0.027235
+Epoch 16, Itrs 13950/30000, Loss=0.023072
+Epoch 16, Itrs 13960/30000, Loss=0.024639
+Epoch 16, Itrs 13970/30000, Loss=0.024483
+Epoch 16, Itrs 13980/30000, Loss=0.023896
+Epoch 16, Itrs 13990/30000, Loss=0.025110
+Epoch 16, Itrs 14000/30000, Loss=0.024626
+Model saved as checkpoints/latest_deeplabv3plus_resnet50_map_os16.pth
+validation...
+
+Overall Acc: 0.988554
+Mean Acc: 0.813366
+FreqW Acc: 0.979728
+Mean IoU: 0.750617
+
+Model saved as checkpoints/best_deeplabv3plus_resnet50_map_os16.pth
+Epoch 16, Itrs 14010/30000, Loss=0.024560
+Epoch 16, Itrs 14020/30000, Loss=0.024279
+Epoch 16, Itrs 14030/30000, Loss=0.026356
+Epoch 16, Itrs 14040/30000, Loss=0.025114
+Epoch 16, Itrs 14050/30000, Loss=0.024727
+Epoch 16, Itrs 14060/30000, Loss=0.022211
+Epoch 16, Itrs 14070/30000, Loss=0.025761
+Epoch 16, Itrs 14080/30000, Loss=0.023162
+Epoch 16, Itrs 14090/30000, Loss=0.024742
+Epoch 16, Itrs 14100/30000, Loss=0.021592
+Epoch 16, Itrs 14110/30000, Loss=0.025476
+Epoch 16, Itrs 14120/30000, Loss=0.024178
+Epoch 16, Itrs 14130/30000, Loss=0.022739
+Epoch 16, Itrs 14140/30000, Loss=0.024428
+Epoch 16, Itrs 14150/30000, Loss=0.020409
+Epoch 16, Itrs 14160/30000, Loss=0.024230
+Epoch 16, Itrs 14170/30000, Loss=0.024995
+Epoch 16, Itrs 14180/30000, Loss=0.027655
+Epoch 16, Itrs 14190/30000, Loss=0.022950
+Epoch 16, Itrs 14200/30000, Loss=0.023947
+Epoch 16, Itrs 14210/30000, Loss=0.024071
+Epoch 16, Itrs 14220/30000, Loss=0.023117
+Epoch 16, Itrs 14230/30000, Loss=0.025394
+Epoch 16, Itrs 14240/30000, Loss=0.025060
+Epoch 16, Itrs 14250/30000, Loss=0.023637
+Epoch 16, Itrs 14260/30000, Loss=0.023144
+Epoch 16, Itrs 14270/30000, Loss=0.023341
+Epoch 16, Itrs 14280/30000, Loss=0.024119
+Epoch 16, Itrs 14290/30000, Loss=0.024607
+Epoch 16, Itrs 14300/30000, Loss=0.023771
+Epoch 16, Itrs 14310/30000, Loss=0.022106
+Epoch 16, Itrs 14320/30000, Loss=0.025334
+Epoch 16, Itrs 14330/30000, Loss=0.022662
+Epoch 16, Itrs 14340/30000, Loss=0.023419
+Epoch 16, Itrs 14350/30000, Loss=0.022692
+Epoch 16, Itrs 14360/30000, Loss=0.026480
+Epoch 16, Itrs 14370/30000, Loss=0.023306
+Epoch 16, Itrs 14380/30000, Loss=0.021245
+Epoch 16, Itrs 14390/30000, Loss=0.021500
+Epoch 16, Itrs 14400/30000, Loss=0.022078
+Epoch 16, Itrs 14410/30000, Loss=0.023994
+Epoch 16, Itrs 14420/30000, Loss=0.026031
+Epoch 16, Itrs 14430/30000, Loss=0.021633
+Epoch 16, Itrs 14440/30000, Loss=0.023170
+Epoch 16, Itrs 14450/30000, Loss=0.024777
+Epoch 16, Itrs 14460/30000, Loss=0.023250
+Epoch 16, Itrs 14470/30000, Loss=0.024766
+Epoch 16, Itrs 14480/30000, Loss=0.024698
+Epoch 16, Itrs 14490/30000, Loss=0.022282
+Epoch 16, Itrs 14500/30000, Loss=0.022110
+Model saved as checkpoints/latest_deeplabv3plus_resnet50_map_os16.pth
+validation...
+
+Overall Acc: 0.988560
+Mean Acc: 0.804518
+FreqW Acc: 0.979554
+Mean IoU: 0.746302
+
+Epoch 16, Itrs 14510/30000, Loss=0.028967
+Epoch 16, Itrs 14520/30000, Loss=0.025297
+Epoch 16, Itrs 14530/30000, Loss=0.025857
+Epoch 16, Itrs 14540/30000, Loss=0.020999
+Epoch 16, Itrs 14550/30000, Loss=0.022187
+Epoch 16, Itrs 14560/30000, Loss=0.023460
+Epoch 16, Itrs 14570/30000, Loss=0.021917
+Epoch 16, Itrs 14580/30000, Loss=0.026064
+Epoch 16, Itrs 14590/30000, Loss=0.021372
+Epoch 16, Itrs 14600/30000, Loss=0.022329
+Epoch 16, Itrs 14610/30000, Loss=0.023231
+Epoch 16, Itrs 14620/30000, Loss=0.021976
+Epoch 16, Itrs 14630/30000, Loss=0.024094
+Epoch 16, Itrs 14640/30000, Loss=0.022567
+Epoch 16, Itrs 14650/30000, Loss=0.023456
+Epoch 16, Itrs 14660/30000, Loss=0.022564
+Epoch 16, Itrs 14670/30000, Loss=0.017830
+Epoch 16, Itrs 14680/30000, Loss=0.022158
+Epoch 17, Itrs 14690/30000, Loss=0.023336
+Epoch 17, Itrs 14700/30000, Loss=0.023188
+Epoch 17, Itrs 14710/30000, Loss=0.022937
+Epoch 17, Itrs 14720/30000, Loss=0.022331
+Epoch 17, Itrs 14730/30000, Loss=0.021846
+Epoch 17, Itrs 14740/30000, Loss=0.026920
+Epoch 17, Itrs 14750/30000, Loss=0.022734
+Epoch 17, Itrs 14760/30000, Loss=0.022715
+Epoch 17, Itrs 14770/30000, Loss=0.022319
+Epoch 17, Itrs 14780/30000, Loss=0.021552
+Epoch 17, Itrs 14790/30000, Loss=0.030374
+Epoch 17, Itrs 14800/30000, Loss=0.022503
+Epoch 17, Itrs 14810/30000, Loss=0.023072
+Epoch 17, Itrs 14820/30000, Loss=0.023086
+Epoch 17, Itrs 14830/30000, Loss=0.025715
+Epoch 17, Itrs 14840/30000, Loss=0.022810
+Epoch 17, Itrs 14850/30000, Loss=0.022658
+Epoch 17, Itrs 14860/30000, Loss=0.021871
+Epoch 17, Itrs 14870/30000, Loss=0.024023
+Epoch 17, Itrs 14880/30000, Loss=0.023423
+Epoch 17, Itrs 14890/30000, Loss=0.022070
+Epoch 17, Itrs 14900/30000, Loss=0.020272
+Epoch 17, Itrs 14910/30000, Loss=0.024760
+Epoch 17, Itrs 14920/30000, Loss=0.023279
+Epoch 17, Itrs 14930/30000, Loss=0.024517
+Epoch 17, Itrs 14940/30000, Loss=0.023952
+Epoch 17, Itrs 14950/30000, Loss=0.028073
+Epoch 17, Itrs 14960/30000, Loss=0.025868
+Epoch 17, Itrs 14970/30000, Loss=0.025684
+Epoch 17, Itrs 14980/30000, Loss=0.024398
+Epoch 17, Itrs 14990/30000, Loss=0.024727
+Epoch 17, Itrs 15000/30000, Loss=0.023321
+Model saved as checkpoints/latest_deeplabv3plus_resnet50_map_os16.pth
+validation...
+
+Overall Acc: 0.988600
+Mean Acc: 0.805622
+FreqW Acc: 0.979645
+Mean IoU: 0.747903
+
+Epoch 17, Itrs 15010/30000, Loss=0.019773
+Epoch 17, Itrs 15020/30000, Loss=0.021425
+Epoch 17, Itrs 15030/30000, Loss=0.022025
+Epoch 17, Itrs 15040/30000, Loss=0.021653
+Epoch 17, Itrs 15050/30000, Loss=0.025543
+Epoch 17, Itrs 15060/30000, Loss=0.021747
+Epoch 17, Itrs 15070/30000, Loss=0.021073
+Epoch 17, Itrs 15080/30000, Loss=0.021309
+Epoch 17, Itrs 15090/30000, Loss=0.020743
+Epoch 17, Itrs 15100/30000, Loss=0.022090
+Epoch 17, Itrs 15110/30000, Loss=0.023628
+Epoch 17, Itrs 15120/30000, Loss=0.025326
+Epoch 17, Itrs 15130/30000, Loss=0.024691
+Epoch 17, Itrs 15140/30000, Loss=0.025991
+Epoch 17, Itrs 15150/30000, Loss=0.020694
+Epoch 17, Itrs 15160/30000, Loss=0.024285
+Epoch 17, Itrs 15170/30000, Loss=0.023934
+Epoch 17, Itrs 15180/30000, Loss=0.022528
+Epoch 17, Itrs 15190/30000, Loss=0.023491
+Epoch 17, Itrs 15200/30000, Loss=0.021654
+Epoch 17, Itrs 15210/30000, Loss=0.025275
+Epoch 17, Itrs 15220/30000, Loss=0.024116
+Epoch 17, Itrs 15230/30000, Loss=0.022313
+Epoch 17, Itrs 15240/30000, Loss=0.021693
+Epoch 17, Itrs 15250/30000, Loss=0.022589
+Epoch 17, Itrs 15260/30000, Loss=0.026855
+Epoch 17, Itrs 15270/30000, Loss=0.025209
+Epoch 17, Itrs 15280/30000, Loss=0.025424
+Epoch 17, Itrs 15290/30000, Loss=0.023194
+Epoch 17, Itrs 15300/30000, Loss=0.024986
+Epoch 17, Itrs 15310/30000, Loss=0.022398
+Epoch 17, Itrs 15320/30000, Loss=0.022032
+Epoch 17, Itrs 15330/30000, Loss=0.020842
+Epoch 17, Itrs 15340/30000, Loss=0.020736
+Epoch 17, Itrs 15350/30000, Loss=0.022701
+Epoch 17, Itrs 15360/30000, Loss=0.024857
+Epoch 17, Itrs 15370/30000, Loss=0.024637
+Epoch 17, Itrs 15380/30000, Loss=0.021930
+Epoch 17, Itrs 15390/30000, Loss=0.022612
+Epoch 17, Itrs 15400/30000, Loss=0.021959
+Epoch 17, Itrs 15410/30000, Loss=0.024954
+Epoch 17, Itrs 15420/30000, Loss=0.026348
+Epoch 17, Itrs 15430/30000, Loss=0.023510
+Epoch 17, Itrs 15440/30000, Loss=0.026906
+Epoch 17, Itrs 15450/30000, Loss=0.021303
+Epoch 17, Itrs 15460/30000, Loss=0.024173
+Epoch 17, Itrs 15470/30000, Loss=0.026390
+Epoch 17, Itrs 15480/30000, Loss=0.025827
+Epoch 17, Itrs 15490/30000, Loss=0.022222
+Epoch 17, Itrs 15500/30000, Loss=0.022356
+Model saved as checkpoints/latest_deeplabv3plus_resnet50_map_os16.pth
+validation...
+
+Overall Acc: 0.988603
+Mean Acc: 0.799848
+FreqW Acc: 0.979520
+Mean IoU: 0.744900
+
+Epoch 17, Itrs 15510/30000, Loss=0.021499
+Epoch 17, Itrs 15520/30000, Loss=0.024020
+Epoch 17, Itrs 15530/30000, Loss=0.021254
+Epoch 17, Itrs 15540/30000, Loss=0.027100
+Epoch 17, Itrs 15550/30000, Loss=0.023984
+Epoch 17, Itrs 15560/30000, Loss=0.025674
+Epoch 17, Itrs 15570/30000, Loss=0.026027
+Epoch 17, Itrs 15580/30000, Loss=0.024458
+Epoch 17, Itrs 15590/30000, Loss=0.023409
+Epoch 17, Itrs 15600/30000, Loss=0.025048

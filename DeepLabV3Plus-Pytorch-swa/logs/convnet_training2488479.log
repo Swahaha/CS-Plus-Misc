@@ -1,0 +1,3 @@
+Device: cuda
+Dataset: map, Train set: 7350, Val set: 1575
+[!] Training from scratch

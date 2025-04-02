@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/home/users/sm961/CS+/DeepLabV3Plus-Pytorch/main.py", line 671, in <module>
+    main()
+  File "/home/users/sm961/CS+/DeepLabV3Plus-Pytorch/main.py", line 405, in main
+    visualize_sample(images[i], masks[i], i, denorm)
+TypeError: visualize_sample() takes 3 positional arguments but 4 were given
+srun: error: linux45: task 0: Exited with exit code 1

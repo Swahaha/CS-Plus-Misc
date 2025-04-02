@@ -1,0 +1,22 @@
+Node coordinates:
+(163, 111)
+(182, 102)
+(196, 437)
+(250, 165)
+(287, 137)
+(360, 146)
+
+Paths found:
+Path 0 with 233 points. Start Node: (163, 111), End Node: (250, 165)
+Path 1 with 246 points. Start Node: (182, 102), End Node: (287, 137)
+Path 2 with 790 points. Start Node: (196, 437), End Node: (360, 146)
+Path 3 with 78 points. Start Node: (250, 165), End Node: (287, 137)
+Path 4 with 134 points. Start Node: (287, 137), End Node: (360, 146)
+
+Adjacency List:
+(163, 111): (250, 165)
+(250, 165): (163, 111), (287, 137)
+(182, 102): (287, 137)
+(287, 137): (182, 102), (250, 165), (360, 146)
+(196, 437): (360, 146)
+(360, 146): (196, 437), (287, 137)

@@ -1,0 +1,34 @@
+Device: cuda
+Dataset: map, Train set: 7350, Val set: 7350
+[!] Training from scratch
+Epoch 1, Itrs 10/30000, Loss=0.456739
+Epoch 1, Itrs 20/30000, Loss=0.162655
+Epoch 1, Itrs 30/30000, Loss=0.120443
+Epoch 1, Itrs 40/30000, Loss=0.086769
+Epoch 1, Itrs 50/30000, Loss=0.075641
+Epoch 1, Itrs 60/30000, Loss=0.056705
+Epoch 1, Itrs 70/30000, Loss=0.063039
+Epoch 1, Itrs 80/30000, Loss=0.061093
+Epoch 1, Itrs 90/30000, Loss=0.062873
+Epoch 1, Itrs 100/30000, Loss=0.068063
+Model saved as checkpoints/latest_deeplabv3plus_resnet50_map_os16.pth
+validation...
+
+Overall Acc: 0.980555
+Mean Acc: 0.483930
+FreqW Acc: 0.966242
+Mean IoU: 0.452877
+
+Model saved as checkpoints/best_deeplabv3plus_resnet50_map_os16.pth
+Epoch 1, Itrs 110/30000, Loss=0.068071
+Epoch 1, Itrs 120/30000, Loss=0.061142
+Epoch 1, Itrs 130/30000, Loss=0.061621
+Epoch 1, Itrs 140/30000, Loss=0.057567
+Epoch 1, Itrs 150/30000, Loss=0.071133
+Epoch 1, Itrs 160/30000, Loss=0.056173
+Epoch 1, Itrs 170/30000, Loss=0.055363
+Epoch 1, Itrs 180/30000, Loss=0.055272
+Epoch 1, Itrs 190/30000, Loss=0.056751
+Epoch 1, Itrs 200/30000, Loss=0.061910
+Model saved as checkpoints/latest_deeplabv3plus_resnet50_map_os16.pth
+validation...

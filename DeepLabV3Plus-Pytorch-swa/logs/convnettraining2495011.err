@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "/home/users/sm961/CS+/DeepLabV3Plus-Pytorch/main.py", line 663, in <module>
+    main()
+  File "/home/users/sm961/CS+/DeepLabV3Plus-Pytorch/main.py", line 631, in main
+    loss = criterion(outputs, labels)
+  File "/home/users/sm961/CS+/DeepLabV3Plus-Pytorch/venv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/users/sm961/CS+/DeepLabV3Plus-Pytorch/venv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/users/sm961/CS+/DeepLabV3Plus-Pytorch/main.py", line 520, in forward
+    targets_one_hot = torch.eye(self.weights.size(0), device=targets.device)[targets].permute(0, 3, 1, 2)
+RuntimeError: permute(sparse_coo): number of dimensions in the tensor input does not match the length of the desired ordering of dimensions i.e. input.dim() = 2 is not equal to len(dims) = 4
+srun: error: linux45: task 0: Exited with exit code 1

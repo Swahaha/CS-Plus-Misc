@@ -1,0 +1,54 @@
+Device: cuda
+Calculated Mean: tensor([0.7715, 0.8988, 0.9856])
+Calculated Std: tensor([0.2449, 0.1588, 0.0835])
+Dataset: map, Train set: 7350, Val set: 1575
+[!] Training from scratch
+Epoch 1, Itrs 10/30000, Loss=0.692236
+Epoch 1, Itrs 20/30000, Loss=0.218275
+Epoch 1, Itrs 30/30000, Loss=0.166538
+Epoch 1, Itrs 40/30000, Loss=0.167536
+Epoch 1, Itrs 50/30000, Loss=0.136547
+Epoch 1, Itrs 60/30000, Loss=0.123066
+Epoch 1, Itrs 70/30000, Loss=0.133316
+Epoch 1, Itrs 80/30000, Loss=0.118522
+Epoch 1, Itrs 90/30000, Loss=0.112137
+Epoch 1, Itrs 100/30000, Loss=0.106067
+Model saved as checkpoints/latest_deeplabv3plus_resnet50_map_os16.pth
+validation...
+
+Overall Acc: 0.969019
+Mean Acc: 0.898151
+FreqW Acc: 0.958173
+Mean IoU: 0.651776
+
+Model saved as checkpoints/best_deeplabv3plus_resnet50_map_os16.pth
+Epoch 1, Itrs 110/30000, Loss=0.106427
+Epoch 1, Itrs 120/30000, Loss=0.108288
+Epoch 1, Itrs 130/30000, Loss=0.109299
+Epoch 1, Itrs 140/30000, Loss=0.115772
+Epoch 1, Itrs 150/30000, Loss=0.110632
+Epoch 1, Itrs 160/30000, Loss=0.100173
+Epoch 1, Itrs 170/30000, Loss=0.101449
+Epoch 1, Itrs 180/30000, Loss=0.096761
+Epoch 1, Itrs 190/30000, Loss=0.105779
+Epoch 1, Itrs 200/30000, Loss=0.109837
+Model saved as checkpoints/latest_deeplabv3plus_resnet50_map_os16.pth
+validation...
+
+Overall Acc: 0.963910
+Mean Acc: 0.951517
+FreqW Acc: 0.952720
+Mean IoU: 0.637806
+
+Epoch 1, Itrs 210/30000, Loss=0.094566
+Epoch 1, Itrs 220/30000, Loss=0.092011
+Epoch 1, Itrs 230/30000, Loss=0.098640
+Epoch 1, Itrs 240/30000, Loss=0.103501
+Epoch 1, Itrs 250/30000, Loss=0.102563
+Epoch 1, Itrs 260/30000, Loss=0.100461
+Epoch 1, Itrs 270/30000, Loss=0.093825
+Epoch 1, Itrs 280/30000, Loss=0.096528
+Epoch 1, Itrs 290/30000, Loss=0.083337
+Epoch 1, Itrs 300/30000, Loss=0.093513
+Model saved as checkpoints/latest_deeplabv3plus_resnet50_map_os16.pth
+validation...

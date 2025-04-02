@@ -1,0 +1,26 @@
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-11.657425..0.9330927].
+Traceback (most recent call last):
+  File "/home/users/sm961/CS+/DeepLabV3Plus-Pytorch/main.py", line 671, in <module>
+    main()
+  File "/home/users/sm961/CS+/DeepLabV3Plus-Pytorch/main.py", line 405, in main
+    visualize_sample(images[i], masks[i], i, denorm)
+  File "/home/users/sm961/CS+/DeepLabV3Plus-Pytorch/main.py", line 365, in visualize_sample
+    plt.savefig(f'visualizations/sample_{idx}.png')
+  File "/home/users/sm961/CS+/DeepLabV3Plus-Pytorch/venv/lib/python3.10/site-packages/matplotlib/pyplot.py", line 1223, in savefig
+    res = fig.savefig(*args, **kwargs)  # type: ignore[func-returns-value]
+  File "/home/users/sm961/CS+/DeepLabV3Plus-Pytorch/venv/lib/python3.10/site-packages/matplotlib/figure.py", line 3388, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/home/users/sm961/CS+/DeepLabV3Plus-Pytorch/venv/lib/python3.10/site-packages/matplotlib/backend_bases.py", line 2218, in print_figure
+    result = print_method(
+  File "/home/users/sm961/CS+/DeepLabV3Plus-Pytorch/venv/lib/python3.10/site-packages/matplotlib/backend_bases.py", line 2068, in <lambda>
+    print_method = functools.wraps(meth)(lambda *args, **kwargs: meth(
+  File "/home/users/sm961/CS+/DeepLabV3Plus-Pytorch/venv/lib/python3.10/site-packages/matplotlib/backends/backend_agg.py", line 496, in print_png
+    self._print_pil(filename_or_obj, "png", pil_kwargs, metadata)
+  File "/home/users/sm961/CS+/DeepLabV3Plus-Pytorch/venv/lib/python3.10/site-packages/matplotlib/backends/backend_agg.py", line 445, in _print_pil
+    mpl.image.imsave(
+  File "/home/users/sm961/CS+/DeepLabV3Plus-Pytorch/venv/lib/python3.10/site-packages/matplotlib/image.py", line 1676, in imsave
+    image.save(fname, **pil_kwargs)
+  File "/home/users/sm961/CS+/DeepLabV3Plus-Pytorch/venv/lib/python3.10/site-packages/PIL/Image.py", line 2456, in save
+    fp = builtins.open(filename, "w+b")
+FileNotFoundError: [Errno 2] No such file or directory: '/home/users/sm961/CS+/DeepLabV3Plus-Pytorch/visualizations/sample_0.png'
+srun: error: linux47: task 0: Exited with exit code 1

@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "main.py", line 3, in <module>
+    import utils
+  File "/home/users/sm961/CS+/DeepLabV3Plus-Pytorch/utils/__init__.py", line 1, in <module>
+    from .utils import *
+  File "/home/users/sm961/CS+/DeepLabV3Plus-Pytorch/utils/utils.py", line 1, in <module>
+    from torchvision.transforms.functional import normalize
+ModuleNotFoundError: No module named 'torchvision'
+srun: error: linux51: task 0: Exited with exit code 1

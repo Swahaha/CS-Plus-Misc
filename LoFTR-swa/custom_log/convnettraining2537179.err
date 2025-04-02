@@ -1,0 +1,17 @@
+/var/lib/slurm/slurmd/job2537179/slurm_script: line 14: cd: /home/users/sm961/CS+/Loftr: No such file or directory
+[rank: 0] Seed set to 42
+2024-07-24 12:27:22.845 | INFO     | __main__:main:319 - LoFTR LightningModule initialized!
+2024-07-24 12:27:22.845 | INFO     | __main__:main:322 - LoFTR DataModule initialized!
+Traceback (most recent call last):
+  File "/home/users/sm961/CS+/LoFTR/train.py", line 356, in <module>
+    main()
+  File "/home/users/sm961/CS+/LoFTR/train.py", line 324, in main
+    logger = TensorBoardLogger(save_dir='logs/tb_logs', name=args.exp_name, default_hp_metric=False)
+  File "/home/users/sm961/CS+/LoFTR/venv/lib/python3.10/site-packages/pytorch_lightning/loggers/tensorboard.py", line 99, in __init__
+    super().__init__(
+  File "/home/users/sm961/CS+/LoFTR/venv/lib/python3.10/site-packages/lightning_fabric/loggers/tensorboard.py", line 95, in __init__
+    raise ModuleNotFoundError(
+ModuleNotFoundError: Neither `tensorboard` nor `tensorboardX` is available. Try `pip install`ing either.
+Requirement 'tensorboardX' not met. HINT: Try running `pip install -U 'tensorboardX'`
+Requirement 'tensorboard' not met. HINT: Try running `pip install -U 'tensorboard'`
+srun: error: linux47: task 0: Exited with exit code 1

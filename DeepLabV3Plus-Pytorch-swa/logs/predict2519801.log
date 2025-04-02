@@ -1,0 +1,3 @@
+Device: cuda
+Loaded model from checkpoints/best_deeplabv3plus_resnet50_map_os16.pth
+Corresponding points on the second image: [array([296.1609 , 136.22615], dtype=float32), array([296.1609 , 136.22615], dtype=float32), array([463.89194, 216.5132 ], dtype=float32), array([319.84952, 175.93971], dtype=float32), array([112.48882, 335.8513 ], dtype=float32), array([135.36815, 376.2351 ], dtype=float32)]

@@ -1,0 +1,100 @@
+/var/lib/slurm/slurmd/job2537191/slurm_script: line 14: cd: /home/users/sm961/CS+/Loftr: No such file or directory
+[rank: 0] Seed set to 42
+2024-07-24 12:30:30.460 | INFO     | __main__:main:319 - LoFTR LightningModule initialized!
+2024-07-24 12:30:30.460 | INFO     | __main__:main:322 - LoFTR DataModule initialized!
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+`Trainer(limit_val_batches=1.0)` was configured so 100% of the batches will be used..
+2024-07-24 12:30:30.524 | INFO     | __main__:main:351 - Trainer initialized!
+2024-07-24 12:30:30.524 | INFO     | __main__:main:352 - Start training!
+[rank: 0] Seed set to 42
+Initializing distributed: GLOBAL_RANK: 0, MEMBER: 1/1
+----------------------------------------------------------------------------------------------------
+distributed_backend=nccl
+All distributed processes registered. Starting with 1 processes
+----------------------------------------------------------------------------------------------------
+
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name    | Type      | Params | Mode 
+----------------------------------------------
+0 | matcher | LoFTR     | 11.6 M | train
+1 | loss    | LoFTRLoss | 0      | train
+----------------------------------------------
+11.6 M    Trainable params
+0         Non-trainable params
+11.6 M    Total params
+46.246    Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+2024-07-24 12:31:16.662 | DEBUG    | src.utils.metrics:compute_correspondence_distances:28 - correspondence_distances type: <class 'list'>, Length: 4
+2024-07-24 12:31:16.664 | DEBUG    | src.utils.metrics:compute_correspondence_distances:30 - Type of correspondence_distances[0]: <class 'list'>, Length: 6200
+2024-07-24 12:31:16.664 | DEBUG    | src.utils.metrics:compute_correspondence_distances:30 - Type of correspondence_distances[1]: <class 'list'>, Length: 37555
+2024-07-24 12:31:16.664 | DEBUG    | src.utils.metrics:compute_correspondence_distances:30 - Type of correspondence_distances[2]: <class 'list'>, Length: 40934
+2024-07-24 12:31:16.664 | DEBUG    | src.utils.metrics:compute_correspondence_distances:30 - Type of correspondence_distances[3]: <class 'list'>, Length: 20178
+2024-07-24 12:31:16.664 | DEBUG    | src.lightning.lightning_loftr:_compute_metrics:114 - Sample distances: [34.48188018798828, 36.400550842285156, 38.327537536621094, 39.293766021728516, 41.231056213378906]
+/home/users/sm961/CS+/LoFTR/venv/lib/python3.10/site-packages/pytorch_lightning/utilities/data.py:78: Trying to infer the `batch_size` from an ambiguous collection. The batch size we found is 4. To avoid any miscalculations, use `self.log(..., batch_size=batch_size)`.
+2024-07-24 12:31:16.772 | DEBUG    | src.lightning.lightning_loftr:validation_step:150 - Distances in validation_step: [34.48188018798828, 36.400550842285156, 38.327537536621094, 39.293766021728516, 41.231056213378906]
+/home/users/sm961/CS+/LoFTR/venv/lib/python3.10/site-packages/torch/functional.py:513: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at ../aten/src/ATen/native/TensorShape.cpp:3609.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+/home/users/sm961/CS+/LoFTR/src/loftr/utils/supervision.py:52: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  j_idx = torch.tensor((y1 // scale) * w1 + (x1 // scale), device=device)
+2024-07-24 12:32:21.890 | INFO     | src.lightning.lightning_loftr:on_validation_epoch_end:171 - _metrics: [{'mean_distance': 67.11766719818115, 'max_distance': 236.4846649169922, 'min_distance': 0.0}]
+2024-07-24 12:32:21.890 | DEBUG    | src.lightning.lightning_loftr:on_validation_epoch_end:195 - Type after conversion: <class 'list'>
+2024-07-24 12:32:21.890 | DEBUG    | src.lightning.lightning_loftr:on_validation_epoch_end:195 - Type after conversion: <class 'list'>
+2024-07-24 12:32:21.890 | DEBUG    | src.lightning.lightning_loftr:on_validation_epoch_end:195 - Type after conversion: <class 'list'>
+2024-07-24 12:32:21.890 | DEBUG    | src.lightning.lightning_loftr:on_validation_epoch_end:195 - Type after conversion: <class 'list'>
+2024-07-24 12:32:21.910 | INFO     | src.utils.metrics:aggregate_metrics:60 - Aggregating metrics over 1 unique items...
+2024-07-24 12:32:21.910 | WARNING  | src.utils.metrics:aggregate_metrics:69 - Unexpected type for correspondence_distances at index 0: <class 'float'>
+2024-07-24 12:32:21.910 | WARNING  | src.utils.metrics:aggregate_metrics:72 - No valid correspondence distances found.
+[rank0]: Traceback (most recent call last):
+[rank0]:   File "/home/users/sm961/CS+/LoFTR/train.py", line 356, in <module>
+[rank0]:     main()
+[rank0]:   File "/home/users/sm961/CS+/LoFTR/train.py", line 353, in main
+[rank0]:     trainer.fit(model, datamodule=data_module)
+[rank0]:   File "/home/users/sm961/CS+/LoFTR/venv/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py", line 543, in fit
+[rank0]:     call._call_and_handle_interrupt(
+[rank0]:   File "/home/users/sm961/CS+/LoFTR/venv/lib/python3.10/site-packages/pytorch_lightning/trainer/call.py", line 43, in _call_and_handle_interrupt
+[rank0]:     return trainer.strategy.launcher.launch(trainer_fn, *args, trainer=trainer, **kwargs)
+[rank0]:   File "/home/users/sm961/CS+/LoFTR/venv/lib/python3.10/site-packages/pytorch_lightning/strategies/launchers/subprocess_script.py", line 105, in launch
+[rank0]:     return function(*args, **kwargs)
+[rank0]:   File "/home/users/sm961/CS+/LoFTR/venv/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py", line 579, in _fit_impl
+[rank0]:     self._run(model, ckpt_path=ckpt_path)
+[rank0]:   File "/home/users/sm961/CS+/LoFTR/venv/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py", line 986, in _run
+[rank0]:     results = self._run_stage()
+[rank0]:   File "/home/users/sm961/CS+/LoFTR/venv/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py", line 1028, in _run_stage
+[rank0]:     self._run_sanity_check()
+[rank0]:   File "/home/users/sm961/CS+/LoFTR/venv/lib/python3.10/site-packages/pytorch_lightning/trainer/trainer.py", line 1057, in _run_sanity_check
+[rank0]:     val_loop.run()
+[rank0]:   File "/home/users/sm961/CS+/LoFTR/venv/lib/python3.10/site-packages/pytorch_lightning/loops/utilities.py", line 182, in _decorator
+[rank0]:     return loop_run(self, *args, **kwargs)
+[rank0]:   File "/home/users/sm961/CS+/LoFTR/venv/lib/python3.10/site-packages/pytorch_lightning/loops/evaluation_loop.py", line 142, in run
+[rank0]:     return self.on_run_end()
+[rank0]:   File "/home/users/sm961/CS+/LoFTR/venv/lib/python3.10/site-packages/pytorch_lightning/loops/evaluation_loop.py", line 254, in on_run_end
+[rank0]:     self._on_evaluation_epoch_end()
+[rank0]:   File "/home/users/sm961/CS+/LoFTR/venv/lib/python3.10/site-packages/pytorch_lightning/loops/evaluation_loop.py", line 336, in _on_evaluation_epoch_end
+[rank0]:     trainer._logger_connector.on_epoch_end()
+[rank0]:   File "/home/users/sm961/CS+/LoFTR/venv/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/logger_connector/logger_connector.py", line 195, in on_epoch_end
+[rank0]:     metrics = self.metrics
+[rank0]:   File "/home/users/sm961/CS+/LoFTR/venv/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/logger_connector/logger_connector.py", line 234, in metrics
+[rank0]:     return self.trainer._results.metrics(on_step)
+[rank0]:   File "/home/users/sm961/CS+/LoFTR/venv/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/logger_connector/result.py", line 481, in metrics
+[rank0]:     value = self._get_cache(result_metric, on_step)
+[rank0]:   File "/home/users/sm961/CS+/LoFTR/venv/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/logger_connector/result.py", line 445, in _get_cache
+[rank0]:     result_metric.compute()
+[rank0]:   File "/home/users/sm961/CS+/LoFTR/venv/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/logger_connector/result.py", line 289, in wrapped_func
+[rank0]:     self._computed = compute(*args, **kwargs)
+[rank0]:   File "/home/users/sm961/CS+/LoFTR/venv/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/logger_connector/result.py", line 249, in compute
+[rank0]:     value = self.meta.sync(self.value.clone())  # `clone` because `sync` is in-place
+[rank0]:   File "/home/users/sm961/CS+/LoFTR/venv/lib/python3.10/site-packages/pytorch_lightning/strategies/ddp.py", line 342, in reduce
+[rank0]:     return _sync_ddp_if_available(tensor, group, reduce_op=reduce_op)
+[rank0]:   File "/home/users/sm961/CS+/LoFTR/venv/lib/python3.10/site-packages/lightning_fabric/utilities/distributed.py", line 174, in _sync_ddp_if_available
+[rank0]:     return _sync_ddp(result, group=group, reduce_op=reduce_op)
+[rank0]:   File "/home/users/sm961/CS+/LoFTR/venv/lib/python3.10/site-packages/lightning_fabric/utilities/distributed.py", line 224, in _sync_ddp
+[rank0]:     torch.distributed.all_reduce(result, op=op, group=group, async_op=False)
+[rank0]:   File "/home/users/sm961/CS+/LoFTR/venv/lib/python3.10/site-packages/torch/distributed/c10d_logger.py", line 79, in wrapper
+[rank0]:     return func(*args, **kwargs)
+[rank0]:   File "/home/users/sm961/CS+/LoFTR/venv/lib/python3.10/site-packages/torch/distributed/distributed_c10d.py", line 2288, in all_reduce
+[rank0]:     work = group.allreduce([tensor], opts)
+[rank0]: RuntimeError: No backend type associated with device type cpu
+srun: error: linux47: task 0: Exited with exit code 1

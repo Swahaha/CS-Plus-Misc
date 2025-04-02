@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/home/users/sm961/CS+/DeepLabV3Plus-Pytorch/main.py", line 2, in <module>
+srun: error: linux51: task 0: Exited with exit code 1
+    import network
+  File "/home/users/sm961/CS+/DeepLabV3Plus-Pytorch/network/__init__.py", line 1, in <module>
+    from .modeling import *
+  File "/home/users/sm961/CS+/DeepLabV3Plus-Pytorch/network/modeling.py", line 1, in <module>
+    from .utils import IntermediateLayerGetter
+  File "/home/users/sm961/CS+/DeepLabV3Plus-Pytorch/network/utils.py", line 1, in <module>
+    import torch
+ModuleNotFoundError: No module named 'torch'
